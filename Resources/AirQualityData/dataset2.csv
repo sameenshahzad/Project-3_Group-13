@@ -1,0 +1,60 @@
+ã WHO 2016. All rights reserved.,,,
+,,,
+,,,
+,,,
+,,,
+v6,04-Apr-17,,
+"The information in this database is provided as a service to our users. The responsibility for the interpretation and use of the material lies with the user. In no event shall the World Health Organization be liable for any damages arising from the use of the information linked to this section.
+The data are not necessarily the official statistics of Member States, and figures have been compiled to ensure comparability. Countries may have additional/ more up-to-date/ more accurate data. Please contact EBDassessment@who.int in view of updating the database.",,,
+,,,
+,,,
+,,,
+Data source:,"Ambient Air Pollution Database, WHO, May 2016.
+Primary source of data are official reporting from countries to WHO, official national/subnational reports and national/ subnational web sites containing measurements of PM10 or PM2.5 and the relevant national agencies. Furthermore, measurements reported by the following regional networks were used:  Clean Air Asia for Asia, and the Air quality e-reporting database  from the European Environment Agency for Europe. In the absence of data from the previous sources, data from (a) UN Agencies, (b) Development agencies and (c) articles from peer reviewed journals  and(d) ground measurements compiled in the framework of the Global Burden of Disease project were used.",,
+,,,
+Metadata:,,,
+Indicator,Annual mean concentration of particulate matter of less than 10 microns of diameter (PM10) [ug/m3] and of less than 2.5 microns (PM2.5) in cities and localities.,,
+Rationale,"Air pollution consists of many pollutants, among other particulate matter. These particles are able to penetrate deeply into the respiratory tract and therefore constitute a risk for health by increasing mortality from respiratory infections and diseases, lung cancer, and selected cardiovascular diseases.",,
+Method of Measurement,"The mean annual concentration of fine suspended particles of less than 10 or 2.5 microns in diameters is a common measure of air pollution. The mean city concentration is based on daily measurements, or data which could be aggregated into annual means. In the absence of annual means, measurements covering a more limited period of the year were exceptionally used. 
+
+
+",,
+Method of estimation,"Annual means are reported as provided in the primary sources, or an average of the cities' monitoring stations were used. In order to present air quality that is largely representative for human exposure, urban measurement characterized as urban background, residential areas, commercial and mixed areas were used. Stations characterized as particular ""hot spots"" or exclusively industrial areas were not included, unless they were contained in reported city means and could not be dissociated.  This selection is in line with the aim of capturing representative values for human exposure. The location of hot spots, often measured for the purpose of capturing the cities' maximum values, and industrial areas, were deemed less likely to be representative for the mean exposure of a significant part of a city's population. ""Hot spots"" were either designated as such by the original reports, or were qualified as such due to their exceptional nature (e.g. exceptionally busy roads etc.). Omitting them may have lead to an underestimation of the mean air pollution levels of a city.
+
+",,
+,"Where the data from various sources were available for a city, only the latest data and most reliable sources were used. Only data measured since the year 2008 were included in the database. The great majority of data are more recent than 2013.
+For completeness, cities with only PM10 (or resp. PM2.5) reported, PM2.5 (or PM10) concentration was calculated from PM10 (resp. PM2.5) using national conversion factors (PM2.5/PM10 ratio) either provided by the country or estimated as population-weighted averages of city-specific conversion factors for the country. City-specific conversion factors were estimated as the mean ratio of PM2.5 to PM10 of stations for the same year. If national conversion factors were not available, regional ones were used, which were obtained by averaging country-specific conversion factors.
+As the conversion factor PM2.5/PM10 may vary according to location, the converted PM10 value for individual cities may deviate from the actual value (generally between 0.4 and 0.8), and should be considered as approximate only.
+",,
+,"The temporal coverage represents the number of days per year covered by measurements, or any alternative qualification as provided in the original sources. If data from several monitoring stations in one city were available, their average temporal coverage was used for the city average. ",,
+Limitations,"Ideally, the monitoring data used to calculate the average annual PM concentrations should be collected throughout the year, for several years, to reduce bias owing to seasonal fluctuations or to a non-representative year.
+Care should be taken that the monitors used are not unduly influenced by a single source of pollution (i.e. a power plant, factory or highway); rather, the monitors should reflect exposures over a wide area.
+Although it is likely that PM data will be available only for larger cities, residents of agglomerations of less than 100'000 inhabitants and of rural areas are also exposed to PM from local industrial activity, transportation, biomass fuels, open burning and regional haze.",,
+,"Data from different countries are of limited comparability because of 
+(a) Different location of measurement stations; 
+(b) Different measurement methods;
+(c) Different temporal coverage of certain measurements; if only part of the year was covered, the measurement may significantly deviate from the annual mean due to seasonal variationsbility;  
+(d) Possible inclusion of data which were not eligible for this database due to insufficient information to ensure compliance;
+(e) Heterogeneous quality of measurements;
+(f) Omission of data which are known to exist, but which could not yet be accessed due to language issues or limited accessibility.
+",,
+Comments,"For more information, please consult the pages http://www.who.int/topics/air_pollution/en/ and http://www.who.int/phe/health_topics/outdoorair/databases/cities/en/, and more specifically the related file on the methods description http://www.who.int/phe/health_topics/outdoorair/databases/AAP_database_methods_2016.pdf.",,
+WHO Air Quality Guidelines,"The WHO guideline values for particulate matter are 20 ?g/m3 for PM10, and 10 ?g/m3 for PM2.5, respectively. Additional information on interim targets are also provided in the guidelines: http://www.who.int/phe/health_topics/outdoorair/outdoorair_aqg/en/",,
+Conversions,"Data in columns F and J in worksheet ""database"" are measured, unless they are shaded in grey, in which case they were converted to PM2.5 or PM10, respectively. Please note that converted values are indicative only and are to be taken with care, as conversion factors are approximative.",,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,

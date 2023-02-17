@@ -1,0 +1,77 @@
+RESEARCH QUESTION:
+
+How dangerous is air pollution and what are its effects on health?
+
+What is air pollution?
+
+It is the presence of harmful substances in the air that we breathe. These substances can be in the form of gases, particles, or biological molecules 
+
+that can have harmful effects on human health, animals, and the environment.
+
+According to WHO, Air pollution is a major and pressing public health threat. WHO estimates that around 7 million people die every year 
+
+from exposure to fine particles in polluted air that lead to diseases such as stroke, heart disease, lung cancer, chronic obstructive pulmonary diseases 
+
+and respiratory infections, including pneumonia. Pollutants include particulate matter, carbon monoxide, ozone, nitrogen dioxide and sulphur dioxide. 
+
+Both ambient (outdoor) and household (indoor) air pollution are harmful for health (https://www.who.int/india/health-topics/air-pollution#:~:
+text=Air%20pollution%20is%20a%20major,and%20respiratory%20infections%2C%20including%20pneumonia).
+
+Scope:
+
+The scope of the study is to examine the extent of air pollution in a specific geographical area, the sources of pollution, 
+
+and its impact on human health. This study focuses on a specific type of air pollutant or a combination of pollutants.
+
+Purpose:
+
+The purpose of this study is to provide a comprehensive understanding of the health risks associated with exposure to air pollution. 
+
+The study aims to answer the research question by collecting and analyzing data on the concentration of pollutants 
+
+and the associated health outcomes. The results of the study could be used to inform public policy and guide interventions to reduce air pollution 
+
+and improve public health. Additionally, the study could help to identify populations that are particularly vulnerable to the effects of air pollution,
+ 
+such as children, elderly people, and individuals with pre-existing health conditions.
+
+
+
+DATA EXPLORATION
+
+
+What information does this website provide? 
+
+https://www.iqair.com/air-pollution-data-api
+
+The website https://www.iqair.com/air-pollution-data-api provides information about the AirVisual API, a platform developed by IQAir 
+
+that provides real-time air quality data for thousands of locations around the world. The API allows developers to access this data and 
+
+integrate it into their own applications or websites.
+
+The website provides information about the features of the AirVisual API, including the types of data that can be accessed, the API endpoints, 
+
+and the data formats supported. It also provides documentation on how to use the API, including sample code snippets and guides for various
+ 
+programming languages.
+
+In addition to the technical documentation, the website also provides information about the benefits of using the AirVisual API, including the ability 
+
+to provide accurate and up-to-date air quality information to users, and the potential to raise awareness about the health effects of air pollution.
+
+Overall, the website is primarily targeted towards developers who want to use the AirVisual API to access air quality data for their own applications.
+
+
+
+What information does this website provide? 
+
+https://apps.who.int/gho/data/node.main.152?lang=en
+
+https://www.who.int/about/policies/publishing/data-policy
+
+https://www.edf.org/health/effects-of-air-pollution#:~:text=Around%20the%20world%2C%20nine%20out,strokes%2C%20diabetes%20and%20respiratory%20diseases
+
+https://www.canada.ca/en/health-canada/services/publications/healthy-living/2021-health-effects-indoor-air-pollution.html
+
+https://www.earthdata.nasa.gov/learn/pathfinders/health-and-air-quality-data-pathfinder

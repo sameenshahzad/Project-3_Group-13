@@ -1,0 +1,642 @@
+"location_id","location_name","sdi_quintile","african_union","commonwealth","eu","four_world_regions","G20","OECD","WHO_regions","WB_income","WB_regions","nordic"
+1,"Global",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4,"Southeast Asia, East Asia, and Oceania",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+5,"East Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6,"China",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7,"Democratic People's Republic of Korea","Low Mid SDI",NA,NA,NA,"Asia",NA,NA,"South-East Asia Region","World Bank Low Income","East Asia & Pacific - WB",NA
+8,"Taiwan (Province of China)","High SDI",NA,NA,NA,"Asia",NA,NA,NA,"World Bank High Income","East Asia & Pacific - WB",NA
+9,"Southeast Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+10,"Cambodia","Low Mid SDI",NA,NA,NA,"Asia",NA,NA,"Western Pacific Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+11,"Indonesia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+12,"Lao People's Democratic Republic","Low Mid SDI",NA,NA,NA,"Asia",NA,NA,"Western Pacific Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+13,"Malaysia","High Mid SDI",NA,"Commonwealth Middle Income",NA,"Asia",NA,NA,"Western Pacific Region","World Bank Upper Middle Income","East Asia & Pacific - WB",NA
+14,"Maldives","Low Mid SDI",NA,"Commonwealth Middle Income",NA,"Asia",NA,NA,"South-East Asia Region","World Bank Upper Middle Income","South Asia - WB",NA
+15,"Myanmar","Low Mid SDI",NA,NA,NA,"Asia",NA,NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+16,"Philippines",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+17,"Sri Lanka","High Mid SDI",NA,"Commonwealth Middle Income",NA,"Asia",NA,NA,"South-East Asia Region","World Bank Lower Middle Income","South Asia - WB",NA
+18,"Thailand","Mid SDI",NA,NA,NA,"Asia",NA,NA,"South-East Asia Region","World Bank Upper Middle Income","East Asia & Pacific - WB",NA
+19,"Timor-Leste","Low Mid SDI",NA,NA,NA,"Asia",NA,NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+20,"Viet Nam","Mid SDI",NA,NA,NA,"Asia",NA,NA,"Western Pacific Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+21,"Oceania",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+22,"Fiji","Mid SDI",NA,"Commonwealth Middle Income",NA,"Asia",NA,NA,"Western Pacific Region","World Bank Upper Middle Income","East Asia & Pacific - WB",NA
+23,"Kiribati","Low Mid SDI",NA,"Commonwealth Middle Income",NA,"Asia",NA,NA,"Western Pacific Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+24,"Marshall Islands","Low Mid SDI",NA,NA,NA,"Asia",NA,NA,"Western Pacific Region","World Bank Upper Middle Income","East Asia & Pacific - WB",NA
+25,"Micronesia (Federated States of)","Low Mid SDI",NA,NA,NA,"Asia",NA,NA,"Western Pacific Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+26,"Papua New Guinea","Low SDI",NA,"Commonwealth Middle Income",NA,"Asia",NA,NA,"Western Pacific Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+27,"Samoa","Mid SDI",NA,"Commonwealth Middle Income",NA,"Asia",NA,NA,"Western Pacific Region","World Bank Upper Middle Income","East Asia & Pacific - WB",NA
+28,"Solomon Islands","Low SDI",NA,"Commonwealth Middle Income",NA,"Asia",NA,NA,"Western Pacific Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+29,"Tonga","Mid SDI",NA,"Commonwealth Middle Income",NA,"Asia",NA,NA,"Western Pacific Region","World Bank Upper Middle Income","East Asia & Pacific - WB",NA
+30,"Vanuatu","Low Mid SDI",NA,"Commonwealth Middle Income",NA,"Asia",NA,NA,"Western Pacific Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+31,"Central Europe, Eastern Europe, and Central Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+32,"Central Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+33,"Armenia","Mid SDI",NA,NA,NA,"Europe",NA,NA,"European Region","World Bank Lower Middle Income","Europe & Central Asia - WB",NA
+34,"Azerbaijan","Mid SDI",NA,NA,NA,"Europe",NA,NA,"European Region","World Bank Upper Middle Income","Europe & Central Asia - WB",NA
+35,"Georgia","High Mid SDI",NA,NA,NA,"Europe",NA,NA,"European Region","World Bank Lower Middle Income","Europe & Central Asia - WB",NA
+36,"Kazakhstan","High Mid SDI",NA,NA,NA,"Asia",NA,NA,"European Region","World Bank Upper Middle Income","Europe & Central Asia - WB",NA
+37,"Kyrgyzstan","Low Mid SDI",NA,NA,NA,"Asia",NA,NA,"European Region","World Bank Lower Middle Income","Europe & Central Asia - WB",NA
+38,"Mongolia","Low Mid SDI",NA,NA,NA,"Asia",NA,NA,"Western Pacific Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+39,"Tajikistan","Low Mid SDI",NA,NA,NA,"Asia",NA,NA,"European Region","World Bank Lower Middle Income","Europe & Central Asia - WB",NA
+40,"Turkmenistan","Mid SDI",NA,NA,NA,"Asia",NA,NA,"European Region","World Bank Upper Middle Income","Europe & Central Asia - WB",NA
+41,"Uzbekistan","Mid SDI",NA,NA,NA,"Asia",NA,NA,"European Region","World Bank Lower Middle Income","Europe & Central Asia - WB",NA
+42,"Central Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+43,"Albania","Mid SDI",NA,NA,NA,"Europe",NA,NA,"European Region","World Bank Upper Middle Income","Europe & Central Asia - WB",NA
+44,"Bosnia and Herzegovina","High Mid SDI",NA,NA,NA,"Europe",NA,NA,"European Region","World Bank Upper Middle Income","Europe & Central Asia - WB",NA
+45,"Bulgaria","High Mid SDI",NA,NA,"European Union","Europe","G20",NA,"European Region","World Bank Upper Middle Income","Europe & Central Asia - WB",NA
+46,"Croatia","High Mid SDI",NA,NA,"European Union","Europe","G20",NA,"European Region","World Bank Upper Middle Income","Europe & Central Asia - WB",NA
+47,"Czechia","High SDI",NA,NA,"European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+48,"Hungary","High Mid SDI",NA,NA,"European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+49,"North Macedonia","High Mid SDI",NA,NA,NA,"Europe",NA,NA,"European Region","World Bank Upper Middle Income",NA,NA
+50,"Montenegro","High Mid SDI",NA,NA,NA,"Europe",NA,NA,"European Region","World Bank Upper Middle Income","Europe & Central Asia - WB",NA
+51,"Poland",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+52,"Romania","High Mid SDI",NA,NA,"European Union","Europe","G20",NA,"European Region","World Bank Upper Middle Income","Europe & Central Asia - WB",NA
+53,"Serbia","High Mid SDI",NA,NA,NA,"Europe",NA,NA,"European Region","World Bank Upper Middle Income","Europe & Central Asia - WB",NA
+54,"Slovakia","High SDI",NA,NA,"European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+55,"Slovenia","High SDI",NA,NA,"European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+56,"Eastern Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+57,"Belarus","High Mid SDI",NA,NA,NA,"Europe",NA,NA,"European Region","World Bank Upper Middle Income","Europe & Central Asia - WB",NA
+58,"Estonia","High SDI",NA,NA,"European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+59,"Latvia","High SDI",NA,NA,"European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+60,"Lithuania","High SDI",NA,NA,"European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+61,"Republic of Moldova","High Mid SDI",NA,NA,NA,"Europe",NA,NA,"European Region","World Bank Lower Middle Income","Europe & Central Asia - WB",NA
+62,"Russian Federation",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+63,"Ukraine",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+64,"High-income",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+65,"High-income Asia Pacific",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+66,"Brunei Darussalam","High SDI",NA,"Commonwealth High Income",NA,"Asia",NA,NA,"Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+67,"Japan",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+68,"Republic of Korea","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+69,"Singapore","High SDI",NA,"Commonwealth High Income",NA,"Asia",NA,NA,"Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+70,"Australasia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+71,"Australia","High SDI",NA,"Commonwealth High Income",NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+72,"New Zealand",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+73,"Western Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+74,"Andorra","High SDI",NA,NA,NA,"Europe",NA,NA,"European Region","World Bank High Income","Europe & Central Asia - WB",NA
+75,"Austria","High SDI",NA,NA,"European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+76,"Belgium","High SDI",NA,NA,"European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+77,"Cyprus","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20",NA,"European Region","World Bank High Income","Europe & Central Asia - WB",NA
+78,"Denmark","High SDI",NA,NA,"European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB","Nordic Region"
+79,"Finland","High SDI",NA,NA,"European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB","Nordic Region"
+80,"France","High SDI",NA,NA,"European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+81,"Germany","High SDI",NA,NA,"European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+82,"Greece","High Mid SDI",NA,NA,"European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+83,"Iceland","High SDI",NA,NA,NA,"Europe",NA,"OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB","Nordic Region"
+84,"Ireland","High SDI",NA,NA,"European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+85,"Israel","High Mid SDI",NA,NA,NA,"Asia",NA,"OECD Countries","European Region","World Bank High Income","Middle East & North Africa - WB",NA
+86,"Italy",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+87,"Luxembourg","High SDI",NA,NA,"European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+88,"Malta","High Mid SDI",NA,"Commonwealth High Income","European Union","Europe","G20",NA,"European Region","World Bank High Income","Middle East & North Africa - WB",NA
+89,"Netherlands","High SDI",NA,NA,"European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+90,"Norway",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+91,"Portugal","High Mid SDI",NA,NA,"European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+92,"Spain","High Mid SDI",NA,NA,"European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+93,"Sweden",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+94,"Switzerland","High SDI",NA,NA,NA,"Europe",NA,"OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+95,"United Kingdom",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+96,"Southern Latin America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+97,"Argentina","High Mid SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+98,"Chile","High Mid SDI",NA,NA,NA,"America",NA,"OECD Countries","Region of the Americas","World Bank High Income","Latin America & Caribbean - WB",NA
+99,"Uruguay","High Mid SDI",NA,NA,NA,"America",NA,NA,"Region of the Americas","World Bank High Income","Latin America & Caribbean - WB",NA
+100,"High-income North America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+101,"Canada","High SDI",NA,"Commonwealth High Income",NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+102,"United States of America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+103,"Latin America and Caribbean",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+104,"Caribbean",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+105,"Antigua and Barbuda","High Mid SDI",NA,"Commonwealth High Income",NA,"America",NA,NA,"Region of the Americas","World Bank High Income","Latin America & Caribbean - WB",NA
+106,"Bahamas","High Mid SDI",NA,"Commonwealth High Income",NA,"America",NA,NA,"Region of the Americas","World Bank High Income","Latin America & Caribbean - WB",NA
+107,"Barbados","High Mid SDI",NA,"Commonwealth High Income",NA,"America",NA,NA,"Region of the Americas","World Bank High Income","Latin America & Caribbean - WB",NA
+108,"Belize","Low Mid SDI",NA,"Commonwealth Middle Income",NA,"America",NA,NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+109,"Cuba","Mid SDI",NA,NA,NA,"America",NA,NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+110,"Dominica","High Mid SDI",NA,"Commonwealth Middle Income",NA,"America",NA,NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+111,"Dominican Republic","Low Mid SDI",NA,NA,NA,"America",NA,NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+112,"Grenada","Mid SDI",NA,"Commonwealth Middle Income",NA,"America",NA,NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+113,"Guyana","Mid SDI",NA,"Commonwealth Middle Income",NA,"America",NA,NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+114,"Haiti","Low SDI",NA,NA,NA,"America",NA,NA,"Region of the Americas","World Bank Low Income","Latin America & Caribbean - WB",NA
+115,"Jamaica","Mid SDI",NA,"Commonwealth Middle Income",NA,"America",NA,NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+116,"Saint Lucia","Mid SDI",NA,"Commonwealth Middle Income",NA,"America",NA,NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+117,"Saint Vincent and the Grenadines","Mid SDI",NA,"Commonwealth Middle Income",NA,"America",NA,NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+118,"Suriname","Mid SDI",NA,NA,NA,"America",NA,NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+119,"Trinidad and Tobago","High Mid SDI",NA,"Commonwealth High Income",NA,"America",NA,NA,"Region of the Americas","World Bank High Income","Latin America & Caribbean - WB",NA
+120,"Andean Latin America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+121,"Bolivia (Plurinational State of)","Low Mid SDI",NA,NA,NA,"America",NA,NA,"Region of the Americas","World Bank Lower Middle Income","Latin America & Caribbean - WB",NA
+122,"Ecuador","Mid SDI",NA,NA,NA,"America",NA,NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+123,"Peru","Mid SDI",NA,NA,NA,"America",NA,NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+124,"Central Latin America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+125,"Colombia","Mid SDI",NA,NA,NA,"America",NA,NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+126,"Costa Rica","Mid SDI",NA,NA,NA,"America",NA,NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+127,"El Salvador","Low Mid SDI",NA,NA,NA,"America",NA,NA,"Region of the Americas","World Bank Lower Middle Income","Latin America & Caribbean - WB",NA
+128,"Guatemala","Low Mid SDI",NA,NA,NA,"America",NA,NA,"Region of the Americas","World Bank Lower Middle Income","Latin America & Caribbean - WB",NA
+129,"Honduras","Low Mid SDI",NA,NA,NA,"America",NA,NA,"Region of the Americas","World Bank Lower Middle Income","Latin America & Caribbean - WB",NA
+130,"Mexico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+131,"Nicaragua","Low Mid SDI",NA,NA,NA,"America",NA,NA,"Region of the Americas","World Bank Lower Middle Income","Latin America & Caribbean - WB",NA
+132,"Panama","Mid SDI",NA,NA,NA,"America",NA,NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+133,"Venezuela (Bolivarian Republic of)","Low Mid SDI",NA,NA,NA,"America",NA,NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+134,"Tropical Latin America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+135,"Brazil",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+136,"Paraguay","Mid SDI",NA,NA,NA,"America",NA,NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+137,"North Africa and Middle East",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+138,"North Africa and Middle East",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+139,"Algeria","Mid SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Upper Middle Income","Middle East & North Africa - WB",NA
+140,"Bahrain","High Mid SDI",NA,NA,NA,"Asia",NA,NA,"Eastern Mediterranean Region","World Bank High Income","Middle East & North Africa - WB",NA
+141,"Egypt","Mid SDI","African Union",NA,NA,"Africa",NA,NA,"Eastern Mediterranean Region","World Bank Lower Middle Income","Middle East & North Africa - WB",NA
+142,"Iran (Islamic Republic of)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+143,"Iraq","Mid SDI",NA,NA,NA,"Asia",NA,NA,"Eastern Mediterranean Region","World Bank Upper Middle Income","Middle East & North Africa - WB",NA
+144,"Jordan","High Mid SDI",NA,NA,NA,"Asia",NA,NA,"Eastern Mediterranean Region","World Bank Lower Middle Income","Middle East & North Africa - WB",NA
+145,"Kuwait","High SDI",NA,NA,NA,"Asia",NA,NA,"Eastern Mediterranean Region","World Bank High Income","Middle East & North Africa - WB",NA
+146,"Lebanon","High Mid SDI",NA,NA,NA,"Asia",NA,NA,"Eastern Mediterranean Region","World Bank Upper Middle Income","Middle East & North Africa - WB",NA
+147,"Libya","High Mid SDI","African Union",NA,NA,"Africa",NA,NA,"Eastern Mediterranean Region","World Bank Upper Middle Income","Middle East & North Africa - WB",NA
+148,"Morocco","Low Mid SDI","African Union",NA,NA,"Africa",NA,NA,"Eastern Mediterranean Region","World Bank Lower Middle Income","Middle East & North Africa - WB",NA
+149,"Palestine","Low Mid SDI",NA,NA,NA,"Asia",NA,NA,"Eastern Mediterranean Region","World Bank Lower Middle Income","Middle East & North Africa - WB",NA
+150,"Oman","High Mid SDI",NA,NA,NA,"Asia",NA,NA,"Eastern Mediterranean Region","World Bank High Income","Middle East & North Africa - WB",NA
+151,"Qatar","High SDI",NA,NA,NA,"Asia",NA,NA,"Eastern Mediterranean Region","World Bank High Income","Middle East & North Africa - WB",NA
+152,"Saudi Arabia","High SDI",NA,NA,NA,"Asia","G20",NA,"Eastern Mediterranean Region","World Bank High Income","Middle East & North Africa - WB",NA
+153,"Syrian Arab Republic","Mid SDI",NA,NA,NA,"Asia",NA,NA,"Eastern Mediterranean Region","World Bank Lower Middle Income","Middle East & North Africa - WB",NA
+154,"Tunisia","Mid SDI","African Union",NA,NA,"Africa",NA,NA,"Eastern Mediterranean Region","World Bank Lower Middle Income","Middle East & North Africa - WB",NA
+155,"Turkey","High Mid SDI",NA,NA,NA,"Europe","G20","OECD Countries","European Region","World Bank Upper Middle Income","Europe & Central Asia - WB",NA
+156,"United Arab Emirates","High SDI",NA,NA,NA,"Asia",NA,NA,"Eastern Mediterranean Region","World Bank High Income","Middle East & North Africa - WB",NA
+157,"Yemen","Low SDI",NA,NA,NA,"Asia",NA,NA,"Eastern Mediterranean Region","World Bank Lower Middle Income","Middle East & North Africa - WB",NA
+158,"South Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+159,"South Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+160,"Afghanistan","Low SDI",NA,NA,NA,"Asia",NA,NA,"Eastern Mediterranean Region","World Bank Low Income","South Asia - WB",NA
+161,"Bangladesh","Low Mid SDI",NA,"Commonwealth Low Income",NA,"Asia",NA,NA,"South-East Asia Region","World Bank Lower Middle Income","South Asia - WB",NA
+162,"Bhutan","Low Mid SDI",NA,NA,NA,"Asia",NA,NA,"South-East Asia Region","World Bank Lower Middle Income","South Asia - WB",NA
+163,"India",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+164,"Nepal","Low SDI",NA,NA,NA,"Asia",NA,NA,"South-East Asia Region","World Bank Low Income","South Asia - WB",NA
+165,"Pakistan",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+166,"Sub-Saharan Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+167,"Central Sub-Saharan Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+168,"Angola","Low Mid SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+169,"Central African Republic","Low SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Low Income","Sub-Saharan Africa - WB",NA
+170,"Congo","Low Mid SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+171,"Democratic Republic of the Congo","Low SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Low Income","Sub-Saharan Africa - WB",NA
+172,"Equatorial Guinea","Mid SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Upper Middle Income","Sub-Saharan Africa - WB",NA
+173,"Gabon","Mid SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Upper Middle Income","Sub-Saharan Africa - WB",NA
+174,"Eastern Sub-Saharan Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+175,"Burundi","Low SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Low Income","Sub-Saharan Africa - WB",NA
+176,"Comoros","Low SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Low Income","Sub-Saharan Africa - WB",NA
+177,"Djibouti","Low Mid SDI","African Union",NA,NA,"Africa",NA,NA,"Eastern Mediterranean Region","World Bank Lower Middle Income","Middle East & North Africa - WB",NA
+178,"Eritrea","Low SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Low Income","Sub-Saharan Africa - WB",NA
+179,"Ethiopia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+180,"Kenya",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+181,"Madagascar","Low SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Low Income","Sub-Saharan Africa - WB",NA
+182,"Malawi","Low SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Low Income","Sub-Saharan Africa - WB",NA
+183,"Mauritius","High Mid SDI","African Union","Commonwealth Middle Income",NA,"Africa",NA,NA,"African Region","World Bank Upper Middle Income","Sub-Saharan Africa - WB",NA
+184,"Mozambique","Low SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Low Income","Sub-Saharan Africa - WB",NA
+185,"Rwanda","Low SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Low Income","Sub-Saharan Africa - WB",NA
+186,"Seychelles","High Mid SDI","African Union","Commonwealth High Income",NA,"Africa",NA,NA,"African Region","World Bank High Income","Sub-Saharan Africa - WB",NA
+187,"Somalia","Low SDI","African Union",NA,NA,"Africa",NA,NA,"Eastern Mediterranean Region","World Bank Low Income","Sub-Saharan Africa - WB",NA
+189,"United Republic of Tanzania","Low SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Low Income","Sub-Saharan Africa - WB",NA
+190,"Uganda","Low SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Low Income","Sub-Saharan Africa - WB",NA
+191,"Zambia","Low Mid SDI","African Union","Commonwealth Middle Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+192,"Southern Sub-Saharan Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+193,"Botswana","Mid SDI","African Union","Commonwealth Middle Income",NA,"Africa",NA,NA,"African Region","World Bank Upper Middle Income","Sub-Saharan Africa - WB",NA
+194,"Lesotho","Low Mid SDI","African Union","Commonwealth Middle Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+195,"Namibia","Mid SDI","African Union","Commonwealth Middle Income",NA,"Africa",NA,NA,"African Region","World Bank Upper Middle Income","Sub-Saharan Africa - WB",NA
+196,"South Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+197,"Eswatini","Low Mid SDI","African Union","Commonwealth Middle Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+198,"Zimbabwe","Low Mid SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Low Income","Sub-Saharan Africa - WB",NA
+199,"Western Sub-Saharan Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+200,"Benin","Low SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Low Income","Sub-Saharan Africa - WB",NA
+201,"Burkina Faso","Low SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Low Income","Sub-Saharan Africa - WB",NA
+202,"Cameroon","Low Mid SDI","African Union","Commonwealth Middle Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+203,"Cabo Verde","Low Mid SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+204,"Chad","Low SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Low Income","Sub-Saharan Africa - WB",NA
+205,"Côte d'Ivoire","Low SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+206,"Gambia","Low SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Low Income","Sub-Saharan Africa - WB",NA
+207,"Ghana","Low Mid SDI","African Union","Commonwealth Middle Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+208,"Guinea","Low SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Low Income","Sub-Saharan Africa - WB",NA
+209,"Guinea-Bissau","Low SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Low Income","Sub-Saharan Africa - WB",NA
+210,"Liberia","Low SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Low Income","Sub-Saharan Africa - WB",NA
+211,"Mali","Low SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Low Income","Sub-Saharan Africa - WB",NA
+212,"Mauritania","Low Mid SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+213,"Niger","Low SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Low Income","Sub-Saharan Africa - WB",NA
+214,"Nigeria",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+215,"Sao Tome and Principe","Low Mid SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+216,"Senegal","Low SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Low Income","Sub-Saharan Africa - WB",NA
+217,"Sierra Leone","Low SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Low Income","Sub-Saharan Africa - WB",NA
+218,"Togo","Low SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Low Income","Sub-Saharan Africa - WB",NA
+298,"American Samoa","High Mid SDI",NA,NA,NA,NA,NA,NA,"Western Pacific Region","World Bank Upper Middle Income","East Asia & Pacific - WB",NA
+305,"Bermuda","High SDI",NA,NA,NA,NA,NA,NA,"Region of the Americas","World Bank High Income","North America",NA
+320,"Cook Islands","High Mid SDI",NA,NA,NA,"Asia",NA,NA,"Western Pacific Region",NA,NA,NA
+349,"Greenland","High Mid SDI",NA,NA,NA,"Europe",NA,NA,NA,"World Bank High Income","Europe & Central Asia - WB","Nordic Region"
+351,"Guam","High SDI",NA,NA,NA,NA,NA,NA,"Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+367,"Monaco","High SDI",NA,NA,NA,"Europe",NA,NA,"European Region","World Bank High Income","Europe & Central Asia - WB",NA
+369,"Nauru","Mid SDI",NA,"Commonwealth Middle Income",NA,"Asia",NA,NA,"Western Pacific Region","World Bank Upper Middle Income","East Asia & Pacific - WB",NA
+374,"Niue","High Mid SDI",NA,NA,NA,"Asia",NA,NA,"Western Pacific Region",NA,NA,NA
+376,"Northern Mariana Islands","High Mid SDI",NA,NA,NA,NA,NA,NA,"Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+380,"Palau","High Mid SDI",NA,NA,NA,"Asia",NA,NA,"Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+385,"Puerto Rico","High SDI",NA,NA,NA,NA,NA,NA,"Region of the Americas","World Bank High Income","Latin America & Caribbean - WB",NA
+393,"Saint Kitts and Nevis","High Mid SDI",NA,"Commonwealth High Income",NA,"America",NA,NA,"Region of the Americas","World Bank High Income","Latin America & Caribbean - WB",NA
+396,"San Marino","High SDI",NA,NA,NA,"Europe",NA,NA,"European Region","World Bank High Income","Europe & Central Asia - WB",NA
+413,"Tokelau","Mid SDI",NA,NA,NA,"Asia",NA,NA,"Western Pacific Region",NA,NA,NA
+416,"Tuvalu","Low Mid SDI",NA,"Commonwealth Middle Income",NA,"Asia",NA,NA,"Western Pacific Region","World Bank Upper Middle Income","East Asia & Pacific - WB",NA
+422,"United States Virgin Islands","High Mid SDI",NA,NA,NA,NA,NA,NA,NA,"World Bank High Income","Latin America & Caribbean - WB",NA
+433,"Northern Ireland","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+434,"Scotland","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+435,"South Sudan","Low SDI","African Union",NA,NA,"Africa",NA,NA,"African Region","World Bank Low Income","Sub-Saharan Africa - WB",NA
+522,"Sudan","Low Mid SDI","African Union",NA,NA,"Africa",NA,NA,"Eastern Mediterranean Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+523,"Alabama","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+524,"Alaska","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+525,"Arizona","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+526,"Arkansas","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+527,"California","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+528,"Colorado","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+529,"Connecticut","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+530,"Delaware","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+531,"District of Columbia","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+532,"Florida","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+533,"Georgia","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+534,"Hawaii","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+535,"Idaho","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+536,"Illinois","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+537,"Indiana","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+538,"Iowa","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+539,"Kansas","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+540,"Kentucky","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+541,"Louisiana","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+542,"Maine","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+543,"Maryland","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+544,"Massachusetts","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+545,"Michigan","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+546,"Minnesota","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+547,"Mississippi","High Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+548,"Missouri","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+549,"Montana","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+550,"Nebraska","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+551,"Nevada","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+552,"New Hampshire","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+553,"New Jersey","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+554,"New Mexico","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+555,"New York","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+556,"North Carolina","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+557,"North Dakota","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+558,"Ohio","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+559,"Oklahoma","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+560,"Oregon","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+561,"Pennsylvania","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+562,"Rhode Island","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+563,"South Carolina","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+564,"South Dakota","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+565,"Tennessee","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+566,"Texas","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+567,"Utah","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+568,"Vermont","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+569,"Virginia","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+570,"Washington","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+571,"West Virginia","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+572,"Wisconsin","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+573,"Wyoming","High SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank High Income","North America",NA
+4618,"North East England",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4619,"North West England",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4620,"Yorkshire and the Humber",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4621,"East Midlands",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4622,"West Midlands",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4623,"East of England",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4624,"Greater London",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4625,"South East England",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4626,"South West England",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4636,"Wales","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+4643,"Aguascalientes","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4644,"Baja California","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4645,"Baja California Sur","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4646,"Campeche","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4647,"Coahuila","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4648,"Colima","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4649,"Chiapas","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4650,"Chihuahua","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4651,"Mexico City","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4652,"Durango","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4653,"Guanajuato","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4654,"Guerrero","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4655,"Hidalgo","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4656,"Jalisco","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4657,"México","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4658,"Michoacán de Ocampo","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4659,"Morelos","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4660,"Nayarit","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4661,"Nuevo León","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4662,"Oaxaca","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4663,"Puebla","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4664,"Querétaro","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4665,"Quintana Roo","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4666,"San Luis Potosí","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4667,"Sinaloa","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4668,"Sonora","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4669,"Tabasco","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4670,"Tamaulipas","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4671,"Tlaxcala","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4672,"Veracruz de Ignacio de la Llave","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4673,"Yucatán","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4674,"Zacatecas","Mid SDI",NA,NA,NA,"America","G20","OECD Countries","Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4709,"Aceh","Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4710,"North Sumatra","Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4711,"West Sumatra","Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4712,"Riau","High Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4713,"Jambi","Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4714,"South Sumatra","Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4715,"Bengkulu","Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4716,"Lampung","Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4717,"Bangka-Belitung Islands","Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4718,"Riau Islands","High Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4719,"North Kalimantan","High Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4720,"Jakarta","High Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4721,"West Java","Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4722,"Central Java","Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4723,"Yogyakarta","Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4724,"East Java","Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4725,"Banten","Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4726,"Bali","Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4727,"West Nusa Tenggara","Low Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4728,"East Nusa Tenggara","Low Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4729,"West Kalimantan","Low Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4730,"Central Kalimantan","Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4731,"South Kalimantan","Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4732,"East Kalimantan","High Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4733,"North Sulawesi","Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4734,"Central Sulawesi","Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4735,"South Sulawesi","Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4736,"Southeast Sulawesi","Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4737,"Gorontalo","Low Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4738,"West Sulawesi","Low Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4739,"Maluku","Low Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4740,"North Maluku","Low Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4741,"West Papua","Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4742,"Papua","Mid SDI",NA,NA,NA,"Asia","G20",NA,"South-East Asia Region","World Bank Lower Middle Income","East Asia & Pacific - WB",NA
+4749,"England",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4750,"Acre","Low Mid SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4751,"Alagoas","Low Mid SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4752,"Amazonas","Low Mid SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4753,"Amapá","Mid SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4754,"Bahia","Low Mid SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4755,"Ceará","Low Mid SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4756,"Distrito Federal","High Mid SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4757,"Espírito Santo","Mid SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4758,"Goiás","Mid SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4759,"Maranhão","Low SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4760,"Minas Gerais","Mid SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4761,"Mato Grosso do Sul","Mid SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4762,"Mato Grosso","Mid SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4763,"Pará","Low Mid SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4764,"Paraíba","Low Mid SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4765,"Paraná","Mid SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4766,"Pernambuco","Low Mid SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4767,"Piaui","Low Mid SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4768,"Rio de Janeiro","High Mid SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4769,"Rio Grande do Norte","Low Mid SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4770,"Rondônia","Low Mid SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4771,"Roraima","Mid SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4772,"Rio Grande do Sul","Mid SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4773,"Santa Catarina","High Mid SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4774,"Sergipe","Low Mid SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4775,"São Paulo","High Mid SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4776,"Tocantins","Low Mid SDI",NA,NA,NA,"America","G20",NA,"Region of the Americas","World Bank Upper Middle Income","Latin America & Caribbean - WB",NA
+4940,"Sweden except Stockholm","High SDI",NA,NA,"European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB","Nordic Region"
+4944,"Stockholm","High SDI",NA,NA,"European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB","Nordic Region"
+35424,"Hokkaidō","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35425,"Aomori","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35426,"Iwate","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35427,"Miyagi","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35428,"Akita","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35429,"Yamagata","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35430,"Fukushima","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35431,"Ibaraki","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35432,"Tochigi","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35433,"Gunma","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35434,"Saitama","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35435,"Chiba","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35436,"Tōkyō","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35437,"Kanagawa","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35438,"Niigata","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35439,"Toyama","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35440,"Ishikawa","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35441,"Fukui","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35442,"Yamanashi","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35443,"Nagano","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35444,"Gifu","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35445,"Shizuoka","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35446,"Aichi","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35447,"Mie","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35448,"Shiga","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35449,"Kyōto","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35450,"Ōsaka","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35451,"Hyōgo","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35452,"Nara","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35453,"Wakayama","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35454,"Tottori","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35455,"Shimane","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35456,"Okayama","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35457,"Hiroshima","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35458,"Yamaguchi","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35459,"Tokushima","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35460,"Kagawa","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35461,"Ehime","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35462,"Kōchi","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35463,"Fukuoka","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35464,"Saga","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35465,"Nagasaki","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35466,"Kumamoto","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35467,"Ōita","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35468,"Miyazaki","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35469,"Kagoshima","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35470,"Okinawa","High SDI",NA,NA,NA,"Asia","G20","OECD Countries","Western Pacific Region","World Bank High Income","East Asia & Pacific - WB",NA
+35617,"Baringo","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35618,"Bomet","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35619,"Bungoma","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35620,"Busia","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35621,"Elgeyo-Marakwet","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35622,"Embu","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35623,"Garissa","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35624,"HomaBay","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35625,"Isiolo","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35626,"Kajiado","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35627,"Kakamega","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35628,"Kericho","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35629,"Kiambu","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35630,"Kilifi","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35631,"Kirinyaga","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35632,"Kisii","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35633,"Kisumu","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35634,"Kitui","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35635,"Kwale","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35636,"Laikipia","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35637,"Lamu","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35638,"Machakos","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35639,"Makueni","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35640,"Mandera","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35641,"Marsabit","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35642,"Meru","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35643,"Migori","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35644,"Mombasa","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35645,"Murang'a","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35646,"Nairobi","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35647,"Nakuru","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35648,"Nandi","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35649,"Narok","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35650,"Nyamira","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35651,"Nyandarua","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35652,"Nyeri","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35653,"Samburu","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35654,"Siaya","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35655,"TaitaTaveta","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35656,"TanaRiver","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35657,"TharakaNithi","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35658,"TransNzoia","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35659,"Turkana","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35660,"UasinGishu","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35661,"Vihiga","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35662,"Wajir","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+35663,"WestPokot","Low Mid SDI","African Union","Commonwealth Low Income",NA,"Africa",NA,NA,"African Region","World Bank Lower Middle Income","Sub-Saharan Africa - WB",NA
+44634,"High-middle SDI","High Mid SDI",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+44635,"High SDI","High SDI",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+44636,"Low-middle SDI","Low Mid SDI",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+44637,"Low SDI","Low SDI",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+44639,"Middle SDI","Mid SDI",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+44643,"Darlington","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44644,"Northumberland","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44645,"Stockton-on-Tees","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44646,"Newcastle upon Tyne","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44647,"North Tyneside","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44648,"Redcar and Cleveland","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44649,"County Durham","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44650,"Gateshead","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44651,"Middlesbrough","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44652,"South Tyneside","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44653,"Sunderland","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44654,"Hartlepool","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44655,"Cheshire East","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44656,"Stockport","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44657,"Trafford","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44658,"Cheshire West and Chester","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44659,"Sefton","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44660,"Lancashire","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44661,"Cumbria","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44662,"Bolton","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44663,"Wirral","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44664,"Bury","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44665,"St Helens","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44666,"Warrington","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44667,"Oldham","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44668,"Rochdale","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44669,"Wigan","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44670,"Halton","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44671,"Liverpool","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44672,"Tameside","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44673,"Salford","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44674,"Blackburn with Darwen","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44675,"Knowsley","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44676,"Blackpool","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44677,"Manchester","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44678,"North Yorkshire","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44679,"East Riding of Yorkshire","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44680,"York","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44681,"North East Lincolnshire","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44682,"Calderdale","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44683,"North Lincolnshire","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44684,"Bradford","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44685,"Kirklees","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44686,"Leeds","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44687,"Sheffield","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44688,"Wakefield","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44689,"Rotherham","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44690,"Doncaster","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44691,"Kingston upon Hull, City of","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44692,"Barnsley","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44693,"Northamptonshire","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44694,"Leicestershire","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44695,"Lincolnshire","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44696,"Rutland","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44697,"Derby","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44698,"Derbyshire","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44699,"Nottinghamshire","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44700,"Nottingham","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44701,"Leicester","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44702,"Warwickshire","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44703,"Herefordshire, County of","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44704,"Solihull","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44705,"Shropshire","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44706,"Worcestershire","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44707,"Staffordshire","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44708,"Dudley","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44709,"Coventry","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44710,"Telford and Wrekin","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44711,"Stoke-on-Trent","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44712,"Walsall","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44713,"Wolverhampton","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44714,"Birmingham","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44715,"Sandwell","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44716,"Bedford","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44717,"Central Bedfordshire","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44718,"Suffolk","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44719,"Hertfordshire","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44720,"Essex","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44721,"Cambridgeshire","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44722,"Thurrock","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44723,"Norfolk","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44724,"Southend-on-Sea","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44725,"Peterborough","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44726,"Luton","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44727,"Richmond upon Thames","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44728,"Kensington and Chelsea","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44729,"Barnet","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44730,"Westminster","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44731,"Bromley","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44732,"Bexley","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44733,"Redbridge","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44734,"Merton","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44735,"Brent","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44736,"Hillingdon","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44737,"Havering","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44738,"Kingston upon Thames","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44739,"Sutton","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44740,"Harrow","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44741,"Enfield","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44742,"Croydon","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44743,"Hammersmith and Fulham","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44744,"Ealing","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44745,"Greenwich","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44746,"Wandsworth","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44747,"Waltham Forest","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44748,"Camden","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44749,"Lambeth","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44750,"Lewisham","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44751,"Hounslow","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44752,"Southwark","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44753,"Newham","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44754,"Barking and Dagenham","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44755,"Haringey","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44756,"Hackney","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44757,"Islington","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44758,"Tower Hamlets","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44759,"Wokingham","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44760,"Buckinghamshire","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44761,"Surrey","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44762,"Windsor and Maidenhead","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44763,"West Berkshire","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44764,"Hampshire","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44765,"Bracknell Forest","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44766,"West Sussex","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44767,"Oxfordshire","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44768,"Reading","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44769,"Kent","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44770,"Brighton and Hove","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44771,"Medway","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44772,"East Sussex","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44773,"Portsmouth","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44774,"Isle of Wight","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44775,"Milton Keynes","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44776,"Southampton","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44777,"Slough","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44778,"South Gloucestershire","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44779,"Dorset","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44780,"Wiltshire","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44781,"North Somerset","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44782,"Devon","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44783,"Poole","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44784,"Bath and North East Somerset","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44785,"Gloucestershire","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44786,"Somerset","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44787,"Swindon","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44788,"Torbay","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44789,"Bristol, City of","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44790,"Bournemouth","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44791,"Cornwall","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA
+44792,"Plymouth","High SDI",NA,"Commonwealth High Income","European Union","Europe","G20","OECD Countries","European Region","World Bank High Income","Europe & Central Asia - WB",NA

@@ -1,4 +1,4 @@
-Country,Pollution Death Rate,Death Rate Ranking,Total Pollution Deaths,Air Pollution Deaths,Water Pollution Deaths,Occupational Pollution Deaths,Lead Deaths
+Country,Pollution_Death_Rate,Death_Rate_Ranking,Total_Pollution_Deaths,Air_Pollution_Deaths,Water_Pollution_Deaths,Occupational_Pollution_Deaths,Lead_Deaths
 Afghanistan,125,30,44247,26054,8048,605,9539
 Albania,79,92,2269,1639,9,149,472
 Algeria,43,159,17940,13222,383,709,3626
@@ -187,5 +187,3 @@ Vietnam,75,103,71365,50232,3097,9809,8227
 Yemen,103,50,29038,12379,8087,550,8022
 Zambia,97,58,16600,7106,8691,310,492
 Zimbabwe,100,54,16518,9021,6079,457,961
-,0,0,0,0,0,0,0
-,0,0,0,0,0,0,0

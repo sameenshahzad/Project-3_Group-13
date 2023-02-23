@@ -1,0 +1,132 @@
+--Creating table schema
+--Note: If the table name exists, drop the table first before creating a new one
+
+--Import each corresponding csv file into the table it belongs
+--csv files are located in Data folder/directory
+--Verify/View the table using 
+SELECT * FROM tablename;
+
+
+CREATE TABLE Countries_Codes_and_Coordinates (
+  coor_id VARCHAR(255),
+  Country VARCHAR(255),
+  alpha_2_code VARCHAR(255),
+  alpha_3_code VARCHAR(255) PRIMARY KEY,
+  numeric_code INT,
+  latitude FLOAT,
+  longitude FLOAT
+);
+
+
+CREATE TABLE Ambient_Air_Quality_Data (
+  aq_id VARCHAR(255) PRIMARY KEY,
+  Region VARCHAR(255),
+  ISO3 VARCHAR(255) REFERENCES Countries_Codes_and_Coordinates(alpha_3_code),
+  Country VARCHAR(255),
+  City VARCHAR(255),	
+  Year INT,
+  PM25 FLOAT,
+  PM10 FLOAT,
+  NO2 FLOAT
+);
+
+CREATE TABLE Death_Rates_from_Air_Pollution (
+  dap_id VARCHAR(255) PRIMARY KEY,
+  Country VARCHAR(255),
+  ISO3 VARCHAR(255) REFERENCES Countries_Codes_and_Coordinates(alpha_3_code),
+  Year INT,
+  Household_Air_Pollution_Deaths FLOAT,
+  Ambient_Particulate_Matter_Pollution_Deaths FLOAT,
+  Air_Pollution_Deaths FLOAT,
+  Ambient_Ozone_Pollution_Deaths FLOAT
+);
+
+CREATE TABLE Disease_Burden_by_Risk_Factor (
+  DALYs_id VARCHAR(255) PRIMARY KEY,
+  Country VARCHAR(255),
+  ISO3 VARCHAR(255) REFERENCES Countries_Codes_and_Coordinates(alpha_3_code),
+  Year INT,
+  DALYs_Low_Physical_Activity FLOAT,
+  DALYs_Non_Exclusive_Breastfeeding FLOAT,
+  DALYs_Air_Pollution FLOAT,
+  DALYs_Child_Wasting FLOAT,
+  DALYs_High_Systolic_BP FLOAT,
+  DALYs_High_Fasting_Glucose FLOAT,
+  DALYs_Child_Stunting FLOAT,
+  DALYs_High_Body_Mass_Index FLOAT,
+  DALYS_Secondhand_Smoke FLOAT,
+  DALYs_Unsafe_Sanitation FLOAT,
+  DALYs_Unsafe_Water_Source FLOAT,
+  DALYs_Diet_Low_in_Vegetables FLOAT,
+  DALYs_Diet_Low_in_Fruits FLOAT,
+  DALYs_Diet_High_in_Sodium FLOAT,
+  DALYs_Drug_Use FLOAT,
+  DALYs_Household_Air_Pollution_from_Solid_Fuels FLOAT,
+  DALYs_High_LDL_Cholesterol FLOAT,
+  DALYs_Iron_Deficiency FLOAT,
+  DALYs_Zinc_Deficiency FLOAT,
+  DALYs_Smoking FLOAT,
+  DALYs_VitaminA_Deficiency FLOAT,
+  DALYs_Particulate_Matter_Pollution FLOAT
+);
+
+CREATE TABLE Number_of_Deaths_by_Risk_Factor (
+    dbr_id VARCHAR(255) PRIMARY KEY,
+    Country VARCHAR(255),
+    ISO3 VARCHAR(255) REFERENCES Countries_Codes_and_Coordinates(alpha_3_code),
+    Year INT,
+    Deaths_from_Outdoor_Air_Pollution INT,
+    Deaths_from_High_Systolic_Blood_Pressure INT,
+    Deaths_from_High_Sodium_Diet INT,
+    Deaths_from_Low_Whole_Grains_Diet INT,
+    Deaths_from_Alcohol_Use INT,
+    Deaths_from_Low_Fruits_Diet INT,
+    Deaths_from_Unsafe_Water_Source INT,
+    Deaths_from_Secondhand_Smoke INT,
+    Death_from_Low_Birth_Weight INT,
+    Deaths_from_Child_Wasting INT,
+    Deaths_from_Unsafe_Sex INT,
+    Deaths_from_Diet_low_in_nuts_and_seeds INT,
+    Death_from_Household_Air_Pollution_from_Solid_Fuels INT,
+    Deaths_from_Diet_Low_in_Vegetables INT,
+    Deaths_Low_Physical_Activity INT,
+    Deaths_from__Smoking INT,
+    Deaths_from_High_Fasting_Plasma_Glucose INT,
+    Deaths_from_Air_Pollution INT,
+    Deaths_from_High_Body_Mass_Index INT,
+    Deaths_from_Unsafe_Sanitation INT,
+    Deaths_from_No_Access_to_Handwashing_Facility INT,
+    Deaths_from_Drug_Use INT,
+    Deaths_from_Low_Bone_Mineral_Density INT,
+    Deaths_from_VitaminA_Deficiency INT,
+    Deaths_from_Child_Stunting INT,
+    Deaths_from_Discontinued_Breastfeeding INT,
+    Deaths_from_Non_Exclusive_Breastfeeding INT,
+    Deaths_from_Iron_Deficiency INT
+);
+
+CREATE TABLE Outdoor_Air_Death_Rates_by_Age (
+  OAD_id VARCHAR(255) PRIMARY KEY,
+  Country VARCHAR(255),
+  ISO3 VARCHAR(255) REFERENCES Countries_Codes_and_Coordinates(alpha_3_code),
+  Year INT,
+  Under_5 FLOAT,
+  age_5_to_14_years FLOAT,
+  age_70plus_years FLOAT,
+  age_15_to_49_years FLOAT,
+  age_50_to_69_years FLOAT
+);
+
+CREATE TABLE AQ_Pollution_Mortality_Data (
+  mor_id VARCHAR(255) PRIMARY KEY,
+  Country VARCHAR(255),
+  ISO3 VARCHAR(255) REFERENCES Countries_Codes_and_Coordinates(alpha_3_code),
+  Death_Rate_Ranking INT,
+  Total_Pollution_Deaths INT,
+  Air_Pollution_Deaths INT,
+  Water_Pollution_Deaths INT,
+  Occupational_Pollution_Deaths INT,
+  Lead_Deaths INT
+);
+
+

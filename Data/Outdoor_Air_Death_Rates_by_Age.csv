@@ -1,4 +1,4 @@
-OAD_id,Country,ISO3,Year,Under_5,5_to_14_years,70plus_years,15_to_49_years,50_to_69_years
+OAD_id,Country,ISO3,Year,Under_5,Five_to_14_years,Seventy_plus_years,Fifteen_to_49_years,Fifty_to_69_years
 DA1,Afghanistan,AFG,1990,53.51344346,0.772926166,258.285326,5.001706334,73.45432081
 DA2,Afghanistan,AFG,1991,48.11579408,0.781314451,252.9937314,4.524408908,72.13386143
 DA3,Afghanistan,AFG,1992,44.29043614,0.802952742,248.1534331,4.01861031,70.96789217

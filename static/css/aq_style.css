@@ -1,1 +1,277 @@
-/*  */
+/* google fonts */
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display"); 
+@import url("https://fonts.googleapis.com/css?family=Lato");
+/* google fonts */
+/* roots */
+:root {
+  /* colors */
+  --JungleGreen        : #26A69A;
+  --light_JungleGreen  : #26a6991e;
+  --SolidBlack         : #000000;
+  --IslandSpice        : #FFFBF0;
+  --SolidWhite         : #ffffff;
+
+  /* fonts */
+  --font-lato : 'Lato';
+  --font-playfair-display: 'Playfair Display';
+}
+/* roots */
+html {
+    font-family: var(--font-lato);
+}
+body {
+    background: var(--IslandSpice);
+}
+/* navbar */
+.navbar {
+    background: var(--JungleGreen);
+    color: var(--SolidBlack);
+    font-family: var(--font-lato);
+    font-weight: 900;
+    max-height: 90px;
+}
+    /* dropdown-menu dropdown-menu-end */
+    .dropdown-menu, .dropdown-menu-end {
+        background: var(--IslandSpice);
+    }
+    /* dropdown-menu dropdown-menu-end */
+    /* dropdown-item */
+    .dropdown-item:hover{
+        background: var(--JungleGreen);
+        color: var(--IslandSpice);
+    }
+    .dropdown-menu hr{
+        background-color: var(--JungleGreen);
+        opacity:1;
+        border: none;
+        margin: auto;
+        height: 5px;
+    }
+    /* dropdown-item */
+/* navbar */
+/* About Modal */
+.modal-body {
+    background: var(--IslandSpice);
+    border-radius: 10px;
+}
+.modal-body h6 {
+    border-bottom: 5px solid var(--JungleGreen);
+    padding-bottom: 5px;
+}
+.modal-body section {
+    border: 2px solid var(--JungleGreen);
+    margin-bottom: 5px;
+    box-shadow: var(--light_JungleGreen) 0px 20px 40px 0px inset;
+}
+.modal-body span {
+    background: var(--JungleGreen);
+    font-weight: 600;
+    padding: 5px 10px 5px 10px;
+    color: var(--IslandSpice);
+    text-transform: uppercase;
+    font-size: 14px;
+    border: none;
+}
+.modal-body p {
+    text-align: justify;
+    font-size: 12px;
+    padding: 10px 10px 0px 10px;
+    margin-top: 5px;
+}
+/* About Modal */
+/* Map And Intro Row + Correlation Column */
+    /* Intro Column */
+    .data_intro {
+        box-shadow: var(--light_JungleGreen) 0px 20px 40px 0px inset;
+        max-width: 500px;
+        min-width: 450px;
+        margin: 20px 10px 20px 10px;
+        text-align: justify;
+        font-family: var(--font-lato);
+    }
+    .data_intro h6 {
+        text-align: center;
+        padding-top: 5px;
+        font-weight: bold;
+        font-size: 24px;
+        color: var(--JungleGreen);
+    }
+    .data_intro p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .data_intro h4 {
+        color: var(--JungleGreen);
+        font-size: 16px;
+        margin-left: 10px;
+    }
+        /* pollutant Radio Button */
+        .form-check {
+            margin: 0px 0px 10px 20px;
+        }
+        .form-check-input {
+            border:1px solid var(--JungleGreen);
+        }
+        .form-check-input:hover {
+            background: var(--light_JungleGreen);
+            border:1px solid var(--JungleGreen);
+            cursor: pointer;
+        }
+        .option1.div-to-show {
+            display: block;
+        }
+          
+        .div-to-show {
+            display: none;
+        }
+        .div-to-show h6 {
+            color: var(--IslandSpice);
+            background: var(--JungleGreen);
+            align-items: center;
+            justify-content: center;
+            padding: 5px 0px 5px 5px;
+            margin: 0px 5px 0px 5px;
+            border-radius: 5px;
+            font-size: 20px;
+        }
+        .div-to-show img {
+            border-left: 1px groove var(--JungleGreen);
+            margin:0px 100px 20px 100px;
+        }
+        /* pollutant Radio Button */
+    /* Intro Column */
+    /* Map Column */
+    .col {
+        background: var(--IslandSpice);
+    }
+    .map-style {
+        background: var(--IslandSpice);
+        margin: 20px 10px 20px 10px;
+    }
+    .map-style h6 {
+        text-align: start;
+        padding-top: 5px;
+        font-weight: bold;
+        font-size: 24px;
+        color: var(--JungleGreen);
+        font-family: var(--font-lato);
+        margin-left: 25px;
+    }
+    #map {
+        height: 23vw;
+        width: 40vw;
+        min-height: 230px;
+        min-width: 430px;
+        border: 1px solid var(--SolidBlack);
+        margin: 5px 10px 20px 10px;
+        border-radius: 2px;
+    }
+    /* Map Column */
+    /* top10pul dropdown Column */
+    .top10pul-style {
+        box-shadow: var(--light_JungleGreen) 0px 20px 40px 0px inset;
+        min-width: 450px;
+        margin: 20px 10px 20px 10px;
+        text-align: justify;
+        font-family: var(--font-lato);
+    }
+    .top10pul-style h6 {
+        text-align: center;
+        padding-top: 5px;
+        font-weight: bold;
+        font-size: 24px;
+        color: var(--JungleGreen);
+    }
+    .top10pul-style h4 {
+        color: var(--SolidBlack);
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .top10pul-style h5 {
+        color: var(--IslandSpice);
+        background: var(--JungleGreen);
+        padding: 5px 0px 5px 5px;
+        margin: 0px 5px 0px 5px;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    .dropdown_shape {
+        max-width: 130px;
+        min-width: 130px;
+        border: 1px solid var(--JungleGreen);
+        border-radius: 0px;
+        background: var(--SolidWhite);
+    }
+    /* Correlation Column */
+/* Map And Intro Row + Correlation Column */
+/* Country Data Row*/
+    /* Country Selection by Search */
+    .country_section{
+        box-shadow: var(--light_JungleGreen) 0px 20px 40px 0px inset;
+        min-width: 450px;
+        max-width: 500px;
+        margin: 20px 10px 20px 10px;
+        text-align: justify;
+        font-family: var(--font-lato);
+    }
+    .form-control {
+        width: 300px;
+        margin: 15px 0px 15px 15px;
+    }
+    .search_btn {
+        border: 1px solid var(--JungleGreen);
+        color: var(--JungleGreen);
+        font-family: var(--font-lato);
+        font-weight: 700;
+        margin: 15px 0px 15px 15px;
+    }
+    .search_btn:hover {
+        border:none;
+        background: var(--JungleGreen);
+        color: var(--SolidBlack);
+    }
+    .panel-primary {
+        max-width: 450px;
+    }
+    .panel-title {
+        color: var(--JungleGreen);
+        padding: 5px 0px 5px 5px;
+        margin: 0px 5px 0px 5px;
+        font-size: 18px;
+    }
+    /* Country Selection by Search */
+    /* RadarChart */
+    .PieChart, .RadarChart, .DiseaseDeath {
+        box-shadow: var(--light_JungleGreen) 0px 20px 40px 0px inset;
+        min-width: 450px;
+        margin: 20px 10px 20px 10px;
+        text-align: justify;
+        font-family: var(--font-lato);
+    }
+    /* diseasedeath column */
+    .PieChart h4, .RadarChart h4, .DiseaseDeath h4 {
+        text-align: center;
+        padding-top: 5px;
+        font-weight: bold;
+        font-size: 24px;
+        color: var(--JungleGreen);
+    }
+    /* diseasedeath column */
+/* Country Data Row*/
+/* Footer */
+.footer {
+    background: var(--JungleGreen);
+    font-family: var(--font-lato);
+    padding: 30px 20px 20px 20px;
+}
+.text-uppercase {
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.text-uppercase span {
+    padding-left: 50px;
+    color: var(--IslandSpice);
+    font-weight: normal;
+}
+/* Footer */

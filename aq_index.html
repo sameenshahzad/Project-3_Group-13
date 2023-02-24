@@ -2,12 +2,250 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- title and title icon -->
+    <title>HI and MR of Air Pollution</title>
+    <link rel="icon" href="assets/AP_Globe.ico" type="image/icon type">
+
+    <!-- bootstrap js and css -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- other css -->
+    <link rel="stylesheet" type="text/css" href="static/css/aq_style.css">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" />
+
+    <!-- Leaflet JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <!-- Your JavaScript file -->
+    <script type="text/javascript" src="static/js/page_func.js"></script>
+    <!-- D3 JavaScript -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <!-- js file -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="static/js/config.js"></script>
+
 </head>
 <body>
-    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="#">The Health Impacts and Mortality Risk of Air Pollution</a>
+
+            <!-- Icons -->
+            <ul class="navbar-nav d-flex flex-row me-1">
+                <li class="nav-item me-3 me-lg-0">
+                    <a class="nav-link text-black" href="https://github.com/sameenshahzad/Project-3_Group-13"><i class="fas fa-envelope mx-1"></i> Repository</a>
+                </li>
+                <li class="nav-item me-3 me-lg-0">
+                    <button type="button" class="nav-link btn text-black" data-bs-toggle="modal" data-bs-target="#myModal"><i class="fas fa-cog mx-1"></i> Overview</button>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-black" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false"> <i class="fas fa-user mx-1"></i> Contributors</a>
+                    <!-- Dropdown menu -->
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li>
+                            <a class="dropdown-item" href="https://github.com/MTanguin">Marivic Tanguin</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="https://github.com/theidari">Ali T. Heidari</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="https://github.com/sameenshahzad">Sameen Shahzad</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="https://github.com/SyedFarman">SyedFarman</a>
+                        </li>
+                        <hr>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+    <!-- About Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- This is where the content of the included HTML file will go -->
+            <div class="modal-body">
+                <h6>Project Overview</h6>
+                    <p>Study to analyze correlation between <b>air pollution</b> and <b>mortality/disease burden</b>. Analyzing global air quality, mortality, and disease data using statistical analysis to identify patterns between air pollution exposure and health outcomes.</p>
+                <section>
+                    <span>Purpose</span>
+                    <p>The purpose of this study is to investigate the health impacts and mortality risk of air pollution, including ambient household air pollution, ambient particulate matter pollution, ambient ozone pollution, and air pollution caused by solid fuels. By examining exposure to these types of pollution, we aim to gain a better understanding of the risks associated with air pollution and identify potential strategies to mitigate its harmful effects on human health.</p>
+                </section>
+                <section>
+                    <span>Scope</span>
+                    <p>The study covers a period of 30 years (1990-2019) and includes data on air quality, mortality rates, and disease burden associated with air pollution from a variety of countries and regions. The focus is on the health impacts and mortality risk associated with exposure to ambient household air pollution, ambient particulate matter pollution, ambient ozone pollution, and air pollution caused by solid fuels.</p>
+                </section>
+                <section>
+                    <span>Limitations</span>
+                    <p>The study is limited by the availability and quality of data, which may vary by country and over time. In addition, the study focuses on selected types of air pollution and does not cover all possible sources of air pollution, such as industrial emissions or transportation-related pollution.</p>
+                </section>
+                <section>
+                    <span>Analysis</span>
+                    <p>The statistical analysis and modeling techniques that will be used to examine the relationship between exposure to air pollution and mortality rates and disease burden and to analyze air quality data from different countries and regions. </p>
+                    <p><b>Correlation Analysis:</b> Conduct a correlation analysis to determine the strength and direction of the relationship between exposure to different types of air pollution and mortality rates and disease burden. This can be done using tools such as Pearson's correlation coefficient or Spearman's rank correlation coefficient.</p>
+                    <p><b>Regression Analysis:</b> Use linear regression analysis to identify the relationship between exposure to different types of air pollution and mortality rates and disease burden.</p>
+                    <p><b>Heatmaps:</b> Use heatmaps to visualize the distribution of air pollution and health outcomes in different countries and regions. Heatmaps can be used to identify patterns and trends in the data, and to highlight areas where air pollution is particularly high and health outcomes are poor.</p>
+                    <p><b>Interactive Visualization:</b> Use interactive visualization tools such as JavaScript, JavaScript libraries and frameworks that can be used for creating interactive visualizations, such as D3.js, Plotly.js, Leaflet and Highcharts to create interactive dashboards that allow users to explore the data and identify patterns and relationships.</p>
+                </section> 
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- About Modal -->
+    <!-- Body Container -->
+    <div class="container-fluid">
+        <!-- Map And Intro Row -->
+        <div class="row">
+            <!-- Intro Column -->
+            <div class="col" style="max-width:520px;">
+                <div class="data_intro">
+                    <h6> About This Data</h6>
+                    <p>Study to analyze correlation between <b>air pollution</b> and <b>mortality/disease burden</b>. Analyzing global air quality, mortality, and disease data using statistical analysis to identify patterns between air pollution exposure and health outcomes.</p>
+                    <h4>Choose a Pollutant to Access Additional Details:</h4>
+                    <!-- pollutant Radio Button -->
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                        <label class="form-check-label" for="exampleRadios1">
+                          PM 2.5
+                        </label>
+                    </div>
+                      
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                          PM 10
+                        </label>
+                    </div>
+                      
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                        <label class="form-check-label" for="exampleRadios3">
+                          NO<sub>2</sub>
+                        </label>
+                    </div>
+                      
+                    <div class="option1 div-to-show">
+                        <h6>PM 2.5</h6>
+                        <p>The term fine particles, or particulate matter 2.5 (PM2.5), refers to tiny particles or droplets in the air that are two and one half microns or less in width. Like inches, meters and miles, a micron is a unit of measurement for distance. There are about 25,000 microns in an inch. The widths of the larger particles in the PM2.5 size range would be about thirty times smaller than that of a human hair. The smaller particles are so small that several thousand of them could fit on the period at the end of this sentence.</p>
+                        <img src="assets/PM2.5 Ed.png" width="300px">
+                    </div>
+                      
+                    <div class="option2 div-to-show" style="display:none;">
+                        <h6>PM 10 </h6>
+                        <p>PM10 includes dust from construction sites, landfills and agriculture, wildfires and brush/waste burning, industrial sources, wind-blown dust from open lands, pollen and fragments of bacteria.</p>
+                        <img src="assets/PM 10 Ed.png" width="300px">
+                    </div>
+                      
+                    <div class="option3 div-to-show" style="display:none;">
+                        <h6>NO<sub>2</sub></h6>
+                        <p>Nitrogen Dioxide (NO<sub>2</sub>) is one of a group of highly reactive gases known as oxides of nitrogen or nitrogen oxides (NO<sub>x</sub>). Other nitrogen oxides include nitrous acid and nitric acid. NO<sub>2</sub> is used as the indicator for the larger group of nitrogen oxides. NO<sub>2</sub> primarily gets in the air from the burning of fuel.</p>
+                    </div> 
+                    <!-- pollutant Radio Button -->    
+                </div>
+            </div>
+            <!-- Intro Column -->
+            <!-- Map Column -->
+            <div class="col">
+                <div class="map-style">
+                    <h6>Air Pollution and Mortality</h6>
+                    <div id="map"></div>
+                </div>
+            </div>
+            <!-- Map Column -->
+            <!-- Top 10 pul Column -->
+            <div class="col">
+                <div class="top10pul-style">
+                    <h6>Top 10 countries Based on Pollutant</h6>
+                    <h4>Select a Year to Access Additional Details:
+                        <select id="selDataset" class="dropdown_shape" onchange="optionChanged(this.value)"></select>
+                    </h4>
+                    <h5>PM 2.5</h5> 
+                    <div id="PM25_plot" style="height: 160px;"></div>
+                    <h5>PM 10</h5> 
+                    <div id="PM10_plot" style="height: 160px;"></div>
+                    <h5>NO<sub>2</sub></h5> 
+                    <div id="NO2_plot" style="height: 160px;"></div>
+                </div>
+            </div>
+             <!-- Top 10 pul Column -->
+        </div>
+        <!-- Map And Intro Row -->
+        <!-- Country Data Row -->
+        <div class="row">
+            <!-- Country Selection by Search -->
+            <div class="col" style="max-width:520px;">
+                <div class="country_section">
+                    <form class="d-inline-flex">
+                        <input class="form-control" type="search" placeholder="Country Name ..." aria-label="Search">
+                        <button class="btn search_btn" type="submit">Search</button>
+                    </form>
+                    <!-- Country Basic Information -->
+                    <div class="panel panel-primary">
+                        <h4 class="panel-title">Country Info</h4>
+                        <div id="sample-metadata" class="panel-body"></div>
+                    </div>
+                    <!-- Country Basic Information -->
+                </div>
+            </div>
+            <!-- Country Selection by Search -->
+            <!-- Death Rate by Air Pollution Type radar chart -->
+            <div class="col">
+                <div class="DiseaseDeath">
+                    <h4>Death Rate by Air Pollution Type</h4>
+                    <div id="radar_chart"><img src="https://www.cs.middlebury.edu/~candrews/showcase/infovis_techniques_s16/radar_chart/chart.png" width="400px"></div>
+                </div>
+            </div>
+            <!-- Death Rate by Air Pollution Type radar chart -->
+            <!-- Outdoor pollution Rate by Age pie chart -->
+            <div class="col">
+                <div class="PieChart">
+                    <h4>Outdoor pollution Rate by Age</h4>
+                    <div id="pie_chart"><img src="https://www.mathsisfun.com/data/images/pie-chart-movies.svg" width="400px"></div>
+                </div>
+            </div>
+            <!-- Outdoor pollution Rate by Age pie chart -->
+            <!-- Number of Disease or Death by Risk Factor bar chart -->
+            <div class="col">
+                <div class="DiseaseDeath">
+                    <h4>Number of Disease or Death by Risk Factor</h4>
+                    <div id="bar_chart"><img src="Resources/air-pollution/Images/death-rates-from-air-pollution.png" width="400px"></div>
+                </div>
+            </div>
+            <!-- Number of Disease or Death by Risk Factor bar chart -->
+        </div>
+        <!-- Country Data Row -->
+    </div>
+    <!-- Footer -->
+    <footer class="footer text-center text-lg-start">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 mb-4 mb-md-0">
+                <h5 class="text-uppercase"><img src="assets/AP_Globe.png" width="30px"> air pollution visualization
+                    <span>
+                        ⁌ © 2023 ⁍  ⁌ Team 13 ⁍  ⁌ Project 3 ⁍  ⁌ University of Toronto Data Analytics Bootcamp ⁍
+                    </span>
+                </h5>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
+    <!-- js list -->
+    <script type="text/javascript" src="static/js/aq_logic.js"></script>
+    <script type="text/javascript" src="static/js/page_func.js"></script>
+    <!-- js list -->
+    <!-- Body Container -->
 </body>
 </html>
 

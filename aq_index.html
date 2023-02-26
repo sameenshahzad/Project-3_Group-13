@@ -20,6 +20,7 @@
 
     <!-- Leaflet JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 
     <!-- Your JavaScript file -->
     <script type="text/javascript" src="static/js/page_func.js"></script>
@@ -28,6 +29,9 @@
     <!-- js file -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="static/js/config.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+
 
 </head>
 <body>
@@ -139,13 +143,13 @@
                     <div class="option1 div-to-show">
                         <h6>PM 2.5</h6>
                         <p>The term fine particles, or particulate matter 2.5 (PM2.5), refers to tiny particles or droplets in the air that are two and one half microns or less in width. Like inches, meters and miles, a micron is a unit of measurement for distance. There are about 25,000 microns in an inch. The widths of the larger particles in the PM2.5 size range would be about thirty times smaller than that of a human hair. The smaller particles are so small that several thousand of them could fit on the period at the end of this sentence.</p>
-                        <img src="assets/PM2.5 Ed.png" width="300px">
+                        <img src="https://raw.githubusercontent.com/sameenshahzad/Project-3_Group-13/main/assets/PM2.5%20Ed.png" width="300px">
                     </div>
                       
                     <div class="option2 div-to-show" style="display:none;">
                         <h6>PM 10 </h6>
                         <p>PM10 includes dust from construction sites, landfills and agriculture, wildfires and brush/waste burning, industrial sources, wind-blown dust from open lands, pollen and fragments of bacteria.</p>
-                        <img src="assets/PM 10 Ed.png" width="300px">
+                        <img src="https://raw.githubusercontent.com/sameenshahzad/Project-3_Group-13/main/assets/PM%2010%20Ed.png" width="300px">
                     </div>
                       
                     <div class="option3 div-to-show" style="display:none;">
@@ -165,18 +169,18 @@
             </div>
             <!-- Map Column -->
             <!-- Top 10 pul Column -->
-            <div class="col">
+            <div class="col" style="max-width: 550px;">
                 <div class="top10pul-style">
                     <h6>Top 10 countries Based on Pollutant</h6>
                     <h4>Select a Year to Access Additional Details:
-                        <select id="selDataset" class="dropdown_shape" onchange="optionChanged(this.value)"></select>
+                        <select id="selDataset" class="dropdown_shape" onchange="optionChangedDropdown1(this.value)"></select>
                     </h4>
                     <h5>PM 2.5</h5> 
-                    <div id="PM25_plot" style="height: 160px;"></div>
+                    <div id="pm2_5_plot" class="bar_plot"></div>
                     <h5>PM 10</h5> 
-                    <div id="PM10_plot" style="height: 160px;"></div>
+                    <div id="pm10_plot" class="bar_plot"></div>
                     <h5>NO<sub>2</sub></h5> 
-                    <div id="NO2_plot" style="height: 160px;"></div>
+                    <div id="no2_plot" class="bar_plot"></div>
                 </div>
             </div>
              <!-- Top 10 pul Column -->
@@ -188,8 +192,8 @@
             <div class="col" style="max-width:520px;">
                 <div class="country_section">
                     <form class="d-inline-flex">
-                        <input class="form-control" type="search" placeholder="Country Name ..." aria-label="Search">
-                        <button class="btn search_btn" type="submit">Search</button>
+                        <input id="country-input" class="form-control" type="search" placeholder="Country Name ..." aria-label="Search">
+                        <button id="search-btn" class="btn search_btn" type="submit">Search</button>
                     </form>
                     <!-- Country Basic Information -->
                     <div class="panel panel-primary">
@@ -203,24 +207,28 @@
             <!-- Death Rate by Air Pollution Type radar chart -->
             <div class="col">
                 <div class="DiseaseDeath">
-                    <h4>Death Rate by Air Pollution Type</h4>
-                    <div id="radar_chart"><img src="https://www.cs.middlebury.edu/~candrews/showcase/infovis_techniques_s16/radar_chart/chart.png" width="400px"></div>
+                    <h4>Death Rate by Pollution Type</h4>
+                    <div id="radar_chart"></div>
                 </div>
             </div>
             <!-- Death Rate by Air Pollution Type radar chart -->
             <!-- Outdoor pollution Rate by Age pie chart -->
             <div class="col">
                 <div class="PieChart">
-                    <h4>Outdoor pollution Rate by Age</h4>
-                    <div id="pie_chart"><img src="https://www.mathsisfun.com/data/images/pie-chart-movies.svg" width="400px"></div>
+                    <h4>Various Categories of Air Pollution
+                        <select id="selDataset_bar" class="dropdown_shape" onchange="optionChangedDropdown2(this.value)"></select>
+                    </h4>
+                    <div id="bar_chart"></div>
                 </div>
             </div>
             <!-- Outdoor pollution Rate by Age pie chart -->
             <!-- Number of Disease or Death by Risk Factor bar chart -->
             <div class="col">
                 <div class="DiseaseDeath">
-                    <h4>Number of Disease or Death by Risk Factor</h4>
-                    <div id="bar_chart"><img src="Resources/air-pollution/Images/death-rates-from-air-pollution.png" width="400px"></div>
+                    <h4>Outdoor pollution Rate by Age
+                        <select id="selDataset_pie" class="dropdown_shape" onchange="optionChangedDropdown3(this.value)"></select>
+                    </h4>
+                    <div id="pie_chart"></div>
                 </div>
             </div>
             <!-- Number of Disease or Death by Risk Factor bar chart -->
@@ -232,7 +240,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12 col-md-12 mb-4 mb-md-0">
-                <h5 class="text-uppercase"><img src="assets/AP_Globe.png" width="30px"> air pollution visualization
+                <h5 class="text-uppercase"><img src="https://raw.githubusercontent.com/sameenshahzad/Project-3_Group-13/main/assets/AP_Globe.png" width="30px"> air pollution visualization
                     <span>
                         ⁌ © 2023 ⁍  ⁌ Team 13 ⁍  ⁌ Project 3 ⁍  ⁌ University of Toronto Data Analytics Bootcamp ⁍
                     </span>
@@ -243,7 +251,14 @@
     <!-- Footer -->
     <!-- js list -->
     <script type="text/javascript" src="static/js/aq_logic.js"></script>
-    <script type="text/javascript" src="static/js/page_func.js"></script>
+    <script type="text/javascript" src="static/js/metafile_and_radar.js"></script>
+    <script type="text/javascript" src="static/js/leaflet_map.js"></script>
+    <script type="text/javascript" src="static/js/dropdown menu.js"></script>
+    <script type="text/javascript" src="static/js/bar_chart.js"></script>
+    <script type="text/javascript" src="static/js/pie_chart.js"></script>
+
+
+
     <!-- js list -->
     <!-- Body Container -->
 </body>

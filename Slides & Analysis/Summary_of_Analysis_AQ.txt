@@ -78,11 +78,11 @@ It will show the ranking of health risk factors compared to other each other tha
 
 FROM: AQ_Pollution_Mortality_Data  
 
-Values of pollution deaths and their ranks for country in 2019
-
 Data can be updated by country name input, then values of pollution deaths and their ranks for each country will show up
 
-Different types of pollutions were ranked from higest to lowest
+Values of pollution deaths and their ranks for country in 2019
+
+Different types of pollutions were ranked from highest to lowest
 
 
 

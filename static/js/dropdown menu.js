@@ -21,7 +21,7 @@ function get_year() {
 }
 
 // update the bar charts when the dropdown menu is changed
-function optionChanged(year) {
+function optionChangedDropdown1(year) {
   update_charts(year);
 }
 

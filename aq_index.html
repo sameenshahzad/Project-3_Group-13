@@ -173,7 +173,7 @@
                 <div class="top10pul-style">
                     <h6>Top 10 countries Based on Pollutant</h6>
                     <h4>Select a Year to Access Additional Details:
-                        <select id="selDataset" class="dropdown_shape" onchange="optionChanged(this.value)"></select>
+                        <select id="selDataset" class="dropdown_shape" onchange="optionChangedDropdown1(this.value)"></select>
                     </h4>
                     <h5>PM 2.5</h5> 
                     <div id="pm2_5_plot" class="bar_plot"></div>
@@ -215,16 +215,20 @@
             <!-- Outdoor pollution Rate by Age pie chart -->
             <div class="col">
                 <div class="PieChart">
-                    <h4>Outdoor pollution Rate by Age</h4>
-                    <div id="pie_chart"><img src="https://www.mathsisfun.com/data/images/pie-chart-movies.svg" width="400px"></div>
+                    <h4>Various Categories of Air Pollution
+                        <select id="selDataset_bar" class="dropdown_shape" onchange="optionChangedDropdown2(this.value)"></select>
+                    </h4>
+                    <div id="bar_chart"></div>
                 </div>
             </div>
             <!-- Outdoor pollution Rate by Age pie chart -->
             <!-- Number of Disease or Death by Risk Factor bar chart -->
             <div class="col">
                 <div class="DiseaseDeath">
-                    <h4>Number of Disease or Death by Risk Factor</h4>
-                    <div id="bar_chart"><img src="" width="400px"></div>
+                    <h4>Outdoor pollution Rate by Age
+                        <select id="selDataset_pie" class="dropdown_shape" onchange="optionChangedDropdown3(this.value)"></select>
+                    </h4>
+                    <div id="pie_chart"></div>
                 </div>
             </div>
             <!-- Number of Disease or Death by Risk Factor bar chart -->
@@ -250,6 +254,10 @@
     <script type="text/javascript" src="static/js/metafile_and_radar.js"></script>
     <script type="text/javascript" src="static/js/leaflet_map.js"></script>
     <script type="text/javascript" src="static/js/dropdown menu.js"></script>
+    <script type="text/javascript" src="static/js/bar_chart.js"></script>
+    <script type="text/javascript" src="static/js/pie_chart.js"></script>
+
+
 
     <!-- js list -->
     <!-- Body Container -->

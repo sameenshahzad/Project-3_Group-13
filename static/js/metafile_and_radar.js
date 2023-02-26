@@ -31,11 +31,18 @@ document.addEventListener("DOMContentLoaded", function () {
                                 selectedCountry.AP,
                                 selectedCountry.LP,
                                 selectedCountry.OP,
-                                selectedCountry.WP
+                                selectedCountry.WP,
+                                selectedCountry.AP
                             ],
-                            theta: ["Air Pollution (AP)",  "Lead Pollution (LP)", "Occupational Pollution (OP)", "Water Pollution (WP)"],
+                            theta: ["Air Pollution (AP)",  "Lead Pollution (LP)", "Occupational Pollution (OP)", "Water Pollution (WP)", "Air Pollution (AP)"],
                             fill: "toself",
-                            name: "Pollution"
+                            name: "Pollution",
+                            marker: {size: 15},
+                            mode: "lines+markers", // connect markers with a line
+                            line: {
+                                color: "black", // set the line color to red with an opacity of 0.5
+                                width: 1 // set the line width to 2
+                              }
                         },
                     ];
 
@@ -56,17 +63,26 @@ document.addEventListener("DOMContentLoaded", function () {
                     };
 
                     Plotly.newPlot("radar_chart", radarData, layout);
+                // Country Info Section
                     const subjectMetadata = d3.select('#sample-metadata');
                     subjectMetadata.html('');
-                
+
                     const table = subjectMetadata.append('table');
                     const tbody = table.append('tbody');
-                
-                    Object.entries(selectedCountry).forEach(([key, value]) => {
-                      const tr = tbody.append('tr').style("width", "220px");
-                      tr.append('td').html(`<span class="panel-keys">${key}:</span>`);
-                      tr.append('td').html(`<span class="panel-values">${value}</span>`).style("text-align", "right")
-                      .style("width", "220px");});
+
+                    const keyOrder = {
+                        "TP": "TP_Rank",
+                        "AP": "AP_Rank",
+                        "OP": "OP_Rank",
+                        "LP": "LP_Rank",
+                        "WP": "WP_Rank"
+                      };
+                      
+                      Object.entries(keyOrder).forEach(([key, value]) => {
+                        const tr = tbody.append('tr').style("width", "400px");
+                        tr.append('td').html(`<span class="panel-keys">${key}:</span>`); 
+                        tr.append('td').html(`<span class="panel-values">${selectedCountry[value]}</span>`).style("text-align", "right").style("width", "220px");
+                        });
 
                 }
                 else {

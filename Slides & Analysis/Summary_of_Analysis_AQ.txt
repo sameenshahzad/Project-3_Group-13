@@ -1,0 +1,95 @@
+The data were analysed using rank method (top 10 countries) to compare the air quality of different countries by 
+the amount of concentration of air pollutant PM 2.5, PM10 and N02  and the combination of all these pollutants by country and by year
+
+The death rate by age group were ranked by the highest number of mortality rates (standardized rate, per 100 000 poppulation) by country and by year
+
+The death rate from different types of air pollution like 'household_air_pollution_deaths','ambient_particulate_matter_pollution_deaths', 'air_pollution_deaths',
+'ambient_ozone_pollution_deaths were ranked to top 10 countries with the highest rate by year and by country
+
+The disease burden by risk factors were ranked from highest to lowest according to risk factor DALYs rate air pollution stands.
+
+The  number of deaths by risk factor were ranked according to risk factor mortality rate to compare where air pollution stands
+
+The pollution mortality data were ranked in descending order to compare which type of pollution has the highest number of deaths.
+
+
+
+FROM: 'Ambient Air Quality Data' table
+# Data can be updated by changing the year that you want to check # input year ("2010 to 2019"))and/or by selecting the country
+
+Top countries with the highest concentration of PM25, PM10, and NO2 in the air quality combined in the past 10 years 
+(our complete data here covered only 2010-2019, 2020-2022 are incomplete)
+
+Top countries with the highest concentration of PM25 in 2019
+
+Top countries with the highest concentration of PM10  in  2019
+
+Top countries with the highest concentration of NO2  in 2019
+
+
+
+FROM: 'Outdoor_Air_Death_Rates_by_Age' table
+
+# Data can be updated by changing the year that you want to check # input year ("1990 to 2019")) and/or by selecting the country
+
+Top 10 countries with the highest death rates in 2019 age groups combined
+
+Top 10 countries with highest death rates in 2019 for the 'under_5' age group
+
+Top 10 countries with highest death rates in 2019 for the 'age_5_to_14_years' age group
+
+Top 10 countries with highest death rates in 2019 for the 'age_15_to_49_years' age group
+
+Top 10 countries with highest death rates in 2019 for the 'age_50_to_69_years' age group
+
+Top 10 countries with highest death rates in 2019 for the 'age_70plus_years' age group
+
+
+FROM: 'Death_Rates_from_Air_Pollution' table
+
+# Data can be updated by changing the year that you want to check # input year ("1990 to 2019")) and/or by selecting the country
+
+Top 10 countries in year 2019 who have the highest death rate of 'air_pollution_deaths'
+
+Top 10 countries in year 2019 who have the highest number of 'ambient_particulate_matter_pollution_deaths'
+
+Top 10 countries in year 2019 who have the highest death rate of 'household_air_pollution_deaths'
+
+Top 10 countries in year 2019 who have the highest death rate of 'ambient_ozone_pollution_deaths'
+
+
+FROM: 'Disease_Burden_by_Risk_Factor' table
+
+# Data can be updated by changing the year that you want to check # input year ("1990 to 2019"))
+
+Value of each risk factor DALYs in descending order for year 2019
+
+It will show the ranking of air pollution DALYSs compared to other risk factors
+
+
+FROM: 'Number_of_Deaths_by_Risk_Factor' table
+
+Data can be updated by changing the year that you want to check # input year ("1990 to 2019"))
+
+Value of each risk factor mortality rate in descending order for year 2019
+
+It will show the ranking of health risk factors compared to other each other that causes death
+
+
+FROM: AQ_Pollution_Mortality_Data  
+
+Values of pollution deaths and their ranks for country in 2019
+
+Data can be updated by country name input, then values of pollution deaths and their ranks for each country will show up
+
+Different types of pollutions were ranked from higest to lowest
+
+
+
+
+
+
+
+
+
+

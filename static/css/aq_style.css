@@ -158,8 +158,8 @@ body {
         margin-left: 25px;
     }
     #map {
-        height: 23vw;
-        width: 40vw;
+        height: 30vw;
+        width: 55vw;
         min-height: 230px;
         min-width: 430px;
         border: 1px solid var(--SolidBlack);
@@ -201,6 +201,12 @@ body {
         border: 1px solid var(--JungleGreen);
         border-radius: 0px;
         background: var(--SolidWhite);
+    }
+    .bar_plot {
+        height: 200px;
+        max-width: 500px;
+        background: var(--IslandSpice);
+        margin: 10px 0px 10px 0px;
     }
     /* Correlation Column */
 /* Map And Intro Row + Correlation Column */

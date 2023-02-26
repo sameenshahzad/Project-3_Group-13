@@ -89,15 +89,16 @@ def world_map_dic():
           .group_by(Ambient_air_quality_data.country, Ambient_air_quality_data.year))
     session.close()
     # convert the query results to a dictionary
-    result_dict = {}
+    result_dict_list = []
     for row in result:
-        result_dict.setdefault(row.country, {})[row.year] = {
-            'pm2_5' : row.pm25_sum,
-            'pm10' : row.pm10_sum,
-            'no2'  : row.no2_sum
-        }
+        result_dict = next((d for d in result_dict_list if d["country"] == row.country), None)
+        if result_dict is None:
+            result_dict = {"country": row.country, "features": []}
+            result_dict_list.append(result_dict)
+        feature_dict = {"year": row.year, "properties": {'pm2_5': row.pm25_sum, 'pm10': row.pm10_sum, 'no2': row.no2_sum}}
+        result_dict["features"].append(feature_dict)
     # return the JSON representation of dictionary.
-    return jsonify(result_dict)
+    return jsonify(result_dict_list)
 
 ##########################################################################################################
 ################################## Outdoor Pollution Rates by Ages #######################################

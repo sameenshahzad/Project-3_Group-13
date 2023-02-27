@@ -45,30 +45,32 @@ Understanding the severity of air pollution and the burden of disease and mortal
 
 Sources:
 
-
 World Health Organization (WHO)
+Links: 
 
-Links: https://www.who.int/data/gho/data/themes/air-pollution/who-air-quality-database
+https://www.who.int/data/gho/data/themes/air-pollution/who-air-quality-database
 
-	     https://www.who.int/teams/environment-climate-change-and-health/air-quality-and-health/health-impacts
+https://www.who.int/teams/environment-climate-change-and-health/air-quality-and-health/health-impacts
 
-	     https://www.who.int/teams/environment-climate-change-and-health/air-quality-and-health/health-impacts/types-of-pollutants
+https://www.who.int/teams/environment-climate-change-and-health/air-quality-and-health/health-impacts/types-of-pollutants
 
-	     https://www.who.int/teams/environment-climate-change-and-health/air-quality-and-health/health-impacts/exposure-air-pollution
+https://www.who.int/teams/environment-climate-change-and-health/air-quality-and-health/health-impacts/exposure-air-pollution
        
 
 
 Global Alliance on Health and Pollution (GAHP)  
+Link: 
 
-Link: https://gahp.net/wp-content/uploads/2019/12/PollutionandHealthMetrics-final-12_18_2019.pdf
+https://gahp.net/wp-content/uploads/2019/12/PollutionandHealthMetrics-final-12_18_2019.pdf
 
 
 
 kaggle.com (@article{owidairpollution)
+Links: 
 
-Links: https://www.kaggle.com/datasets/programmerrdai/air-pollution?select=death-rates-from-air-pollution.csv
+https://www.kaggle.com/datasets/programmerrdai/air-pollution?select=death-rates-from-air-pollution.csv
 
-	     https://www.kaggle.com/datasets/programmerrdai/outdoor-air-pollution?select=PM25-air-pollution.csv
+https://www.kaggle.com/datasets/programmerrdai/outdoor-air-pollution?select=PM25-air-pollution.csv
 
 
 

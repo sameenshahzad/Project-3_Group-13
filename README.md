@@ -34,7 +34,7 @@ The study involves analyzing air quality data from different countries as well a
 
 Conclusions:
 
-Pollutants such as PM25, PM10, and NO2 allow scientists to estimate the spatial distribution of their ambient concentrations across different countries, quantifying air pollution,burden of disease and mortality rates. These pollutants, in addition to other pollutants vary across the globe and may result in different concentrations of air pollution from city to city, and country to country.
+Pollutants such as PM2.5, PM10, and NO2 allow scientists to estimate the spatial distribution of their ambient concentrations across different countries, quantifying air pollution,burden of disease and mortality rates. These pollutants, in addition to other pollutants vary across the globe and may result in different concentrations of air pollution from city to city, and country to country.
 
 Based on our analysis, it can be concluded that air pollution is among the top five factors contributing to mortality rates and burden of disease worldwide.
 

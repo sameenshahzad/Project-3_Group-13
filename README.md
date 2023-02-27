@@ -4,8 +4,7 @@
 "The Health Impacts and Mortality Risk of Air Pollution"
 
 
-![AirQualityDashboard](https://user-images.githubusercontent.com/114210481/221661048-ea4edffb-94cd-4947-934a-de774552b4e3.png)
-
+![AirQualityDashboard](https://user-images.githubusercontent.com/114210481/221664041-0066fd05-0402-494c-ab89-2633a06173d4.png)
 
 
 

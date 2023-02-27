@@ -43,6 +43,10 @@ It can be deduced that similar age groups (i.e., under 5, 5-14, 15-49, 50-69, 70
 Understanding the severity of air pollution and the burden of disease and mortality rates related to it is important for public health officials, policymakers, and healthcare providers, as it can help them to prioritize resources and develop interventions to reduce the impact of the disease on the population.
 
 
+
+
+
+
 Sources:
 
 World Health Organization (WHO)
@@ -59,6 +63,7 @@ https://www.who.int/teams/environment-climate-change-and-health/air-quality-and-
 
 
 Global Alliance on Health and Pollution (GAHP)  
+
 Link: 
 
 https://gahp.net/wp-content/uploads/2019/12/PollutionandHealthMetrics-final-12_18_2019.pdf
@@ -66,6 +71,7 @@ https://gahp.net/wp-content/uploads/2019/12/PollutionandHealthMetrics-final-12_1
 
 
 kaggle.com (@article{owidairpollution)
+
 Links: 
 
 https://www.kaggle.com/datasets/programmerrdai/air-pollution?select=death-rates-from-air-pollution.csv

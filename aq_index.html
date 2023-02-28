@@ -21,9 +21,10 @@
     <!-- Leaflet JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+     <!-- Leaflet heatmap plugin-->
+     <script type="text/javascript" src="static/js/leaflet-heat.js"></script>
 
-    <!-- Your JavaScript file -->
-    <script type="text/javascript" src="static/js/page_func.js"></script>
+
     <!-- D3 JavaScript -->
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <!-- js file -->
@@ -40,21 +41,50 @@
         <!-- Container wrapper -->
         <div class="container-fluid">
             <!-- Navbar brand -->
-            <a class="navbar-brand" href="#">The Health Impacts and Mortality Risk of Air Pollution</a>
+            <a class="navbar-brand text-white" href="#">The Health Impacts and Mortality Risk of Air Pollution</a>
 
             <!-- Icons -->
             <ul class="navbar-nav d-flex flex-row me-1">
                 <li class="nav-item me-3 me-lg-0">
-                    <a class="nav-link text-black" href="https://github.com/sameenshahzad/Project-3_Group-13"><i class="fas fa-envelope mx-1"></i> Repository</a>
+                    <a class="nav-link text-white" href="https://github.com/sameenshahzad/Project-3_Group-13"><i class="fas fa-envelope mx-1"></i> Repository</a>
                 </li>
                 <li class="nav-item me-3 me-lg-0">
-                    <button type="button" class="nav-link btn text-black" data-bs-toggle="modal" data-bs-target="#myModal"><i class="fas fa-cog mx-1"></i> Overview</button>
+                    <button type="button" class="nav-link btn text-white" data-bs-toggle="modal" data-bs-target="#myModal"><i class="fas fa-cog mx-1"></i> Overview</button>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-black" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown1" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false"> <i class="fas fa-user mx-1"></i> Data</a>
+                    <!-- Dropdown menu -->
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown1">
+                        <li>
+                            <a class="dropdown-item" href="http://127.0.0.1:5000/countrydata">Countries Coordinates</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="http://127.0.0.1:5000/mapdatadic">Ambient Air Quality</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="http://127.0.0.1:5000/agepollution">Outdoor Air Death Rates by Age</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="http://127.0.0.1:5000/fourairpollution">Death Rates from Air Pollution</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="http://127.0.0.1:5000/pollutiondeaths">AQ Pollution Mortality</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="http://127.0.0.1:5000/dbbrf">Disease Burden by Risk Factor</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="http://127.0.0.1:5000/ndrf">Number of deaths by Risk Factor</a>
+                        </li>
+                        <hr>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown2" role="button"
                     data-bs-toggle="dropdown" aria-expanded="false"> <i class="fas fa-user mx-1"></i> Contributors</a>
                     <!-- Dropdown menu -->
-                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown2">
                         <li>
                             <a class="dropdown-item" href="https://github.com/MTanguin">Marivic Tanguin</a>
                         </li>
@@ -89,7 +119,7 @@
                 </section>
                 <section>
                     <span>Scope</span>
-                    <p>The study covers a period of 30 years (1990-2019) and includes data on air quality, mortality rates, and disease burden associated with air pollution from a variety of countries and regions. The focus is on the health impacts and mortality risk associated with exposure to ambient household air pollution, ambient particulate matter pollution, ambient ozone pollution, and air pollution caused by solid fuels.</p>
+                    <p>The study covers a period of 5 years (2015-2019) and includes data on air quality, mortality rates, and disease burden associated with air pollution from a variety of countries and regions. The focus is on the health impacts and mortality risk associated with exposure to ambient household air pollution, ambient particulate matter pollution, ambient ozone pollution, and air pollution caused by solid fuels.</p>
                 </section>
                 <section>
                     <span>Limitations</span>
@@ -115,8 +145,19 @@
             <!-- Intro Column -->
             <div class="col" style="max-width:520px;">
                 <div class="data_intro">
-                    <h6> About This Data</h6>
-                    <p>Study to analyze correlation between <b>air pollution</b> and <b>mortality/disease burden</b>. Analyzing global air quality, mortality, and disease data using statistical analysis to identify patterns between air pollution exposure and health outcomes.</p>
+                    <h6> <span style="color:#9dd323">RESEARCH</span> QUESTIONS</h6>
+                    <div class="span_p"><b>Ambient Air Quality Data</b></div>
+                    <p>The analysis focuses on the air quality levels, specifically PM25, PM10, and NO2, in the top 10 countries.</p>
+                    <div class="span_p"><b>AQ Pollution Mortality Data</b></div>
+                    <p>The analysis compares the causes of death due to different types of pollution with the impact of air pollution.</p>
+                    <div class="span_p"><b>Outdoor Pollution Rates by Ages</b></div>
+                    <p>The analysis focuses on the top 10 countries where air pollution is a leading cause of death across different age groups, with the aim of determining whether it disproportionately affects either the young or the old.</p>
+                    <div class="span_p"><b>Disease burden by Risk Factor</b></div>
+                    <p>The analysis involves comparing the Disability-Adjusted Life Years (DALY) attributed to various diseases .</p>
+                    <div class="span_p"><b>Number of death by Risk factors</b></div>
+                    <p>The analysis compares the causes of death due to various diseases with the impact of air pollution in the top 10 countries.</p>
+                    <div class="span_p"><b>Death Rates from Air pollution</b></div>
+                    <p>The analysis examines the top 10 countries where air pollution is a major cause of death, categorized by the type of air pollution, such as household pollutants or ozone.</p>
                     <h4>Choose a Pollutant to Access Additional Details:</h4>
                     <!-- pollutant Radio Button -->
                     <div class="form-check form-check-inline">
@@ -155,16 +196,32 @@
                     <div class="option3 div-to-show" style="display:none;">
                         <h6>NO<sub>2</sub></h6>
                         <p>Nitrogen Dioxide (NO<sub>2</sub>) is one of a group of highly reactive gases known as oxides of nitrogen or nitrogen oxides (NO<sub>x</sub>). Other nitrogen oxides include nitrous acid and nitric acid. NO<sub>2</sub> is used as the indicator for the larger group of nitrogen oxides. NO<sub>2</sub> primarily gets in the air from the burning of fuel.</p>
+                        <img src="https://media.istockphoto.com/id/1328679761/vector/nfpa-704-1-3-0-0-symbol-sign-vector-illustration-isolate-on-white-background-label-eps10.jpg?s=612x612&w=0&k=20&c=Rg__nVuQOEFnYL4OoLG7DFgEnKqrwxNOXKMGO2Yz59k=" width="120px">
+                        <p>Elevated levels of nitrogen dioxide can cause damage to the human respiratory tract and increase a person's vulnerability to, and the severity of, respiratory infections and asthma. Long-term exposure to high levels of nitrogen dioxide can cause chronic lung disease.</p>
                     </div> 
                     <!-- pollutant Radio Button -->    
                 </div>
+                <!-- Search Button -->
+                <div class="search_box_main">
+                    <h4>Exploring Data through Country Name Searches</h4>
+                    <form class="d-inline-flex">
+                        <input id="country-input" class="form-control" type="search" placeholder="Country Name ..." aria-label="Search">
+                        <button id="search-btn" class="btn search_btn" type="submit">Search</button>
+                    </form>
+                    <h6><sup>*</sup> Please capitalize the first letter of the country name and use lowercase for the rest. For instance, "Canada" instead of "canada". Thank you.</h6>
+                </div>
+                <!-- Search Button -->
             </div>
             <!-- Intro Column -->
             <!-- Map Column -->
             <div class="col">
                 <div class="map-style">
-                    <h6>Air Pollution and Mortality</h6>
+                    <h6>Air Pollution Based on Pollutant 2015 to 2019</h6>
                     <div id="map"></div>
+                    <div class="note_map">
+                        <span style="color:#3c4a49">STOP </span><span style="color:#596f6e">POLLUTION </span><span style="color:#ceff36">GO </span><span style="color:#7c9921">GREEN</span>
+                        
+                    </div>
                 </div>
             </div>
             <!-- Map Column -->
@@ -191,14 +248,33 @@
             <!-- Country Selection by Search -->
             <div class="col" style="max-width:520px;">
                 <div class="country_section">
-                    <form class="d-inline-flex">
-                        <input id="country-input" class="form-control" type="search" placeholder="Country Name ..." aria-label="Search">
-                        <button id="search-btn" class="btn search_btn" type="submit">Search</button>
-                    </form>
                     <!-- Country Basic Information -->
                     <div class="panel panel-primary">
-                        <h4 class="panel-title">Country Info</h4>
-                        <div id="sample-metadata" class="panel-body"></div>
+                        <h4 class="panel-title">Country Pollution Rank</h4>
+                        <div class="panel_exp">The following are the rankings of the four primary types of pollution, as well as the overall level of pollution:</div>
+                        <hr class="seperator">
+                        <div id="sample-metadata" class="panel-body d-flex justify-content-center"></div>
+                        <hr class="seperator">
+                        <div class="panel_exp">Total Pollution (TP), Air Pollution (AP), Occupational Pollution (OP), Lead Pollution (LP), Water Pollution (WP) <br>
+                        <span>For more information please visit the following link:</span><br>
+                        <ul>
+                            <li>
+                                <a href="https://education.nationalgeographic.org/resource/pollution/">Pollution by National Geographic</a>
+                            </li>
+                            <li>
+                                <a href="https://www.who.int/health-topics/air-pollution#tab=tab_1">WHO Air Pollution Health topic</a>
+                            </li>
+                            <li>
+                                <a href="https://journal.chestnet.org/article/S0012-3692(16)35268-0/fulltext">Occupational Pollution Chestnet</a>
+                            </li>
+                            <li>
+                                <a href="https://www.epa.gov/lead-air-pollution/basic-information-about-lead-air-pollution">Basic Information About Lead Pollution</a>
+                            </li>
+                            <li>
+                                <a href="https://www.hsph.harvard.edu/ehep/82-2/#:~:text=Water%20pollution%20is%20the%20contamination,make%20their%20way%20to%20water.">Water Pollution</a> by Environmental Health Education Program (EHEP), Harvard University
+                            </li>
+                        </ul>
+                        </div>
                     </div>
                     <!-- Country Basic Information -->
                 </div>
@@ -225,7 +301,7 @@
             <!-- Number of Disease or Death by Risk Factor bar chart -->
             <div class="col">
                 <div class="DiseaseDeath">
-                    <h4>Outdoor pollution Rate by Age
+                    <h4>Outdoor Pollution Rate by Age
                         <select id="selDataset_pie" class="dropdown_shape" onchange="optionChangedDropdown3(this.value)"></select>
                     </h4>
                     <div id="pie_chart"></div>
@@ -234,6 +310,26 @@
             <!-- Number of Disease or Death by Risk Factor bar chart -->
         </div>
         <!-- Country Data Row -->
+        <!-- Disese Death Data Row -->
+        <div class="row">
+            <div class="col">
+                <div class="DiseaseDeath2">
+                    <h4>Disease Burden by Risk Factor Compare to Air Pollution (AP)
+                        <select id="selDataset_dbbrf_bar" class="dropdown_shape" onchange="optionChangedDropdown4(this.value)"></select>
+                    </h4>
+                    <div id="dbbrf_bar_chart" class="dbbrf_bar_css"></div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="DiseaseDeath2">
+                    <h4>Death by Risk Factor Compare to Air Pollution (AP)
+                        <select id="selDataset_ndrf_bar" class="dropdown_shape" onchange="optionChangedDropdown5(this.value)"></select>
+                    </h4>
+                    <div id="ndrf_bar_chart" class="dbbrf_bar_css"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Disese Death Data Row -->
     </div>
     <!-- Footer -->
     <footer class="footer text-center text-lg-start">
@@ -253,9 +349,12 @@
     <script type="text/javascript" src="static/js/aq_logic.js"></script>
     <script type="text/javascript" src="static/js/metafile_and_radar.js"></script>
     <script type="text/javascript" src="static/js/leaflet_map.js"></script>
-    <script type="text/javascript" src="static/js/dropdown menu.js"></script>
+    <script type="text/javascript" src="static/js/dropdown_menu_bar.js"></script>
     <script type="text/javascript" src="static/js/bar_chart.js"></script>
     <script type="text/javascript" src="static/js/pie_chart.js"></script>
+    <script type="text/javascript" src="static/js/dbbrf_bar.js"></script>
+    <script type="text/javascript" src="static/js/ndrf_bar.js"></script>
+
 
 
 

@@ -50,17 +50,21 @@ document.addEventListener("DOMContentLoaded", function () {
                           y: ["Ambient Ozone P", "Other AP", "Ambient PMP", "Household AP"],
                           type: "bar",
                           orientation: "h",
-                          marker: {color: "blue"} // set the bar color to blue
-                          }
+                          marker: {color: "#7d3f20",
+                          line: {
+                            color: "#f05f0e",
+                            width: 0.5,
+                          }// set the bar color to blue
+                          }}
                       ];
                       
                       // Create a new bar chart layout object
                       const barLayout = {
-                          title: "Pollution Levels",
-                          xaxis: {title: "Pollution Value"},
-                          yaxis: {title: "Pollution Type"},
-                          plot_bgcolor: "#FFFBF0",
-                          paper_bgcolor: "#FFFBF0"
+                          xaxis: {title: "Value"},
+                          yaxis: {title: "Air Pollution Type", tickfont: { size:13, family: 'calibri', color: 'black'}, tickangle:90 },
+                          paper_bgcolor:'rgba(0,0,0,0)',
+                          plot_bgcolor :'rgba(0,0,0,0)',
+                          margin: {l: 100, r: 50, b: 80, t: 0, pad: 0}
                       };
                   
                       // Render the new bar chart

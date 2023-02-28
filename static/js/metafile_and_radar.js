@@ -30,17 +30,17 @@ document.addEventListener("DOMContentLoaded", function () {
                             r: [
                                 selectedCountry.AP,
                                 selectedCountry.LP,
-                                selectedCountry.OP,
                                 selectedCountry.WP,
+                                selectedCountry.OP,
                                 selectedCountry.AP
                             ],
-                            theta: ["Air Pollution (AP)",  "Lead Pollution (LP)", "Occupational Pollution (OP)", "Water Pollution (WP)", "Air Pollution (AP)"],
+                            theta: ["Air Pollution (AP)",  "Lead Pollution (LP)",  "Water Pollution (WP)", "Occupational Pollution (OP)", "Air Pollution (AP)"],
                             fill: "toself",
                             name: "Pollution",
                             marker: {size: 15},
                             mode: "lines+markers", // connect markers with a line
                             line: {
-                                color: "black", // set the line color to red with an opacity of 0.5
+                                color: "#7d3f20", // set the line color to red with an opacity of 0.5
                                 width: 1 // set the line width to 2
                               }
                         },
@@ -58,8 +58,8 @@ document.addEventListener("DOMContentLoaded", function () {
                             x: 0.05,
                             y: 0.95
                         },
-                        plot_bgcolor: "#FFFBF0",
-                        paper_bgcolor: "#FFFBF0"
+                        paper_bgcolor:'rgba(0,0,0,0)',
+                        plot_bgcolor :'rgba(0,0,0,0)',
                     };
 
                     Plotly.newPlot("radar_chart", radarData, layout);
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
                       Object.entries(keyOrder).forEach(([key, value]) => {
                         const tr = tbody.append('tr').style("width", "400px");
                         tr.append('td').html(`<span class="panel-keys">${key}:</span>`); 
-                        tr.append('td').html(`<span class="panel-values">${selectedCountry[value]}</span>`).style("text-align", "right").style("width", "220px");
+                        tr.append('td').html(`<span class="panel-values">${selectedCountry[value]}</span>`).style("text-align", "right").style("width", "300px");
                         });
 
                 }

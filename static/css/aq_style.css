@@ -5,11 +5,13 @@
 /* roots */
 :root {
   /* colors */
-  --JungleGreen        : #26A69A;
-  --light_JungleGreen  : #26a6991e;
+  --JungleGreen        : #242c38;
+  --light_JungleGreen  : #242c381e;
   --SolidBlack         : #000000;
-  --IslandSpice        : #FFFBF0;
+  --IslandSpice        : #ffffff;
   --SolidWhite         : #ffffff;
+  --warning            : #ff0000;
+  --metaColor          : #7d3f20;
 
   /* fonts */
   --font-lato : 'Lato';
@@ -25,7 +27,7 @@ body {
 /* navbar */
 .navbar {
     background: var(--JungleGreen);
-    color: var(--SolidBlack);
+    color: var(--SolidWhite);
     font-family: var(--font-lato);
     font-weight: 900;
     max-height: 90px;
@@ -88,6 +90,8 @@ body {
         margin: 20px 10px 20px 10px;
         text-align: justify;
         font-family: var(--font-lato);
+        border-radius: 5px;
+        height: 38vw;
     }
     .data_intro h6 {
         text-align: center;
@@ -99,11 +103,16 @@ body {
     .data_intro p {
         padding-left: 10px;
         padding-right: 10px;
+        font-size: 13px;
     }
     .data_intro h4 {
         color: var(--JungleGreen);
         font-size: 16px;
         margin-left: 10px;
+    }
+    .span_p {
+        padding-left: 10px;
+        color:#5c5c03
     }
         /* pollutant Radio Button */
         .form-check {
@@ -138,8 +147,50 @@ body {
             border-left: 1px groove var(--JungleGreen);
             margin:0px 100px 20px 100px;
         }
+        .option3 img {     
+            margin:0px 160px 20px 160px;
+            border: none;
+        }
         /* pollutant Radio Button */
     /* Intro Column */
+    /* search column */
+    .search_box_main {
+        background: var(--IslandSpice);
+        margin: 20px 10px 20px 10px;
+        box-shadow: var(--light_JungleGreen) 0px 20px 40px 0px inset;
+        height: 6.3vw;
+        border-radius: 5px;
+    }
+    .search_box_main h4 {
+        color: var(--JungleGreen);
+        font-size: 16px;
+        margin-left: 10px;
+        padding-top: 20px;
+    }
+    .search_box_main h6 {
+        color: var(--warning);
+        font-size: 13px;
+        margin-left: 20px;
+        padding-top: 5px;
+        margin-right: 20px;
+    }
+    .form-control {
+        width: 300px;
+        margin: 15px 0px 15px 15px;
+    }
+    .search_btn {
+        border: 1px solid var(--JungleGreen);
+        color: var(--JungleGreen);
+        font-family: var(--font-lato);
+        font-weight: 700;
+        margin: 15px 0px 15px 15px;
+    }
+    .search_btn:hover {
+        border:none;
+        background: var(--JungleGreen);
+        color: var(--SolidWhite);
+    }
+    /* search column */
     /* Map Column */
     .col {
         background: var(--IslandSpice);
@@ -147,6 +198,10 @@ body {
     .map-style {
         background: var(--IslandSpice);
         margin: 20px 10px 20px 10px;
+        box-shadow: var(--light_JungleGreen) 0px 20px 40px 0px inset;
+        height: 45vw;
+        border-radius: 5px;
+
     }
     .map-style h6 {
         text-align: start;
@@ -158,13 +213,20 @@ body {
         margin-left: 25px;
     }
     #map {
-        height: 30vw;
-        width: 55vw;
+        height: 38vw;
+        width: 60vw;
         min-height: 230px;
         min-width: 430px;
         border: 1px solid var(--SolidBlack);
-        margin: 5px 10px 20px 10px;
+        margin: 10px 10px 20px 10px;
         border-radius: 2px;
+    }
+    .note_map {
+        align-content: center;
+        justify-content: center;
+        font-size: 70px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding: 0px 450px 0px 400px;
     }
     /* Map Column */
     /* top10pul dropdown Column */
@@ -174,6 +236,8 @@ body {
         margin: 20px 10px 20px 10px;
         text-align: justify;
         font-family: var(--font-lato);
+        height: 45vw;
+        border-radius: 5px;
     }
     .top10pul-style h6 {
         text-align: center;
@@ -199,13 +263,14 @@ body {
         max-width: 130px;
         min-width: 130px;
         border: 1px solid var(--JungleGreen);
-        border-radius: 0px;
+        border-radius: 2px;
         background: var(--SolidWhite);
+        text-align: center;
+        font-size: 16px;
     }
     .bar_plot {
-        height: 200px;
+        height: 335px;
         max-width: 500px;
-        background: var(--IslandSpice);
         margin: 10px 0px 10px 0px;
     }
     /* Correlation Column */
@@ -219,31 +284,45 @@ body {
         margin: 20px 10px 20px 10px;
         text-align: justify;
         font-family: var(--font-lato);
-    }
-    .form-control {
-        width: 300px;
-        margin: 15px 0px 15px 15px;
-    }
-    .search_btn {
-        border: 1px solid var(--JungleGreen);
-        color: var(--JungleGreen);
-        font-family: var(--font-lato);
-        font-weight: 700;
-        margin: 15px 0px 15px 15px;
-    }
-    .search_btn:hover {
-        border:none;
-        background: var(--JungleGreen);
-        color: var(--SolidBlack);
+        height: 20vw;
+        border-radius: 5px;
+        justify-content: center;
     }
     .panel-primary {
         max-width: 450px;
     }
     .panel-title {
+        text-align: center;
+        padding-top: 5px;
+        font-weight: bold;
+        font-size: 24px;
         color: var(--JungleGreen);
-        padding: 5px 0px 5px 5px;
-        margin: 0px 5px 0px 5px;
-        font-size: 18px;
+    }
+    /* table keys */
+    .panel-keys{
+        color: var(--metaColor);
+        font-family:var(--font-lato);
+        font-weight: bold;
+        line-height: 25px;
+        text-transform: uppercase;
+    }
+    /* table values */
+    .panel-values{
+        color: var(--SolidBlack);
+        font-size: small;
+        text-transform: capitalize;
+        font-family: var(--font-lato);
+    }
+    .panel_exp {
+        padding: 10px 10px 10px 10px;
+        margin-left: 10px;
+    }
+    .seperator {
+        background-color: var(--JungleGreen);
+        opacity:1;
+        border: none;
+        margin-left: 20px;
+        height: 5px;
     }
     /* Country Selection by Search */
     /* RadarChart */
@@ -253,9 +332,11 @@ body {
         margin: 20px 10px 20px 10px;
         text-align: justify;
         font-family: var(--font-lato);
+        height: 20vw;
+        border-radius: 5px;
     }
     /* diseasedeath column */
-    .PieChart h4, .RadarChart h4, .DiseaseDeath h4 {
+    .PieChart h4, .RadarChart h4, .DiseaseDeath h4, .DiseaseDeath2 h4 {
         text-align: center;
         padding-top: 5px;
         font-weight: bold;
@@ -264,11 +345,26 @@ body {
     }
     /* diseasedeath column */
 /* Country Data Row*/
+/* Disese Death Data Row */
+.DiseaseDeath2 {
+    box-shadow: var(--light_JungleGreen) 0px 20px 40px 0px inset;
+    min-width: 450px;
+    margin: 20px 10px 20px 10px;
+    text-align: justify;
+    font-family: var(--font-lato);
+    height: 26vw;
+    border-radius: 5px;
+}
+.dbbrf_bar_css {
+    max-height: 600px;
+}
+/* Disese Death Data Row */
 /* Footer */
 .footer {
     background: var(--JungleGreen);
     font-family: var(--font-lato);
     padding: 30px 20px 20px 20px;
+    color: var(--IslandSpice);
 }
 .text-uppercase {
     align-items: center;

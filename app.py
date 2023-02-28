@@ -214,6 +214,121 @@ def pollutionresult():
     # return the JSON representation of dictionary.
     return jsonify(pollution_deaths_dict)
 
+
+##########################################################################################################
+##################################### Disease Burden by Risk Factor ######################################
+# define a dbbrf route
+@app.route("/dbbrf")
+def dbbrf_func():
+    print("Server received request for Aq pollution mortality data")
+    # create our session (link) from Python to the DB
+    session
+    # Create the SQLAlchemy query
+    dbbrf_query = session.query(Disease_burden_by_risk_factor.country,
+                                Disease_burden_by_risk_factor.year,
+                                (Disease_burden_by_risk_factor.dalys_low_physical_activity).label("LPA"),
+                                (Disease_burden_by_risk_factor.dalys_non_exclusive_breastfeeding).label("NEB"),
+                                (Disease_burden_by_risk_factor.dalys_air_pollution).label("AP"),
+                                (Disease_burden_by_risk_factor.dalys_child_wasting).label("CW"),
+                                (Disease_burden_by_risk_factor.dalys_high_systolic_bp).label("HS"),
+                                (Disease_burden_by_risk_factor.dalys_high_fasting_glucose).label("HFG"),
+                                (Disease_burden_by_risk_factor.dalys_child_stunting).label("CS"),
+                                (Disease_burden_by_risk_factor.dalys_high_body_mass_index).label("HBMI"),
+                                (Disease_burden_by_risk_factor.dalys_secondhand_smoke).label("SS"),
+                                (Disease_burden_by_risk_factor.dalys_unsafe_sanitation).label("US"),
+                                (Disease_burden_by_risk_factor.dalys_unsafe_water_source).label("UWS"),
+                                (Disease_burden_by_risk_factor.dalys_diet_low_in_vegetables).label("DLV"),
+                                (Disease_burden_by_risk_factor.dalys_diet_low_in_fruits).label("DLF"),
+                                (Disease_burden_by_risk_factor.dalys_diet_high_in_sodium).label("HIS"),
+                                (Disease_burden_by_risk_factor.dalys_drug_use).label("DU"),
+                                (Disease_burden_by_risk_factor.dalys_household_air_pollution_from_solid_fuels).label("HASF"),
+                                (Disease_burden_by_risk_factor.dalys_high_ldl_cholesterol).label("HLC"),
+                                (Disease_burden_by_risk_factor.dalys_iron_deficiency).label("ID"),
+                                (Disease_burden_by_risk_factor.dalys_zinc_deficiency).label("ZD"),
+                                (Disease_burden_by_risk_factor.dalys_smoking).label("S"),
+                                (Disease_burden_by_risk_factor.dalys_vitamina_deficiency).label("DVD"),
+                                (Disease_burden_by_risk_factor.dalys_particulate_matter_pollution).label("PMP"))\
+                            .filter(Disease_burden_by_risk_factor.year>=2015)\
+                            .all()
+    session.close()
+    # convert the query results to a dictionary
+    dbbrf_dic = {}
+    for row in dbbrf_query:
+        country, year, LPA, NEB, AP, CW, HS, HFG, CS, HBMI, SS, US, UWS, DLV, DLF,\
+        HIS, DU, HASF, HLC, ID, ZD, S, DVD, PMP = row
+
+        if country not in dbbrf_dic:
+            dbbrf_dic[country] = {}
+
+        dbbrf_dic[country][year] = {'LPA': LPA,'NEB': NEB,'AP': AP,'CW': CW,'HS': HS,\
+            'HFG': HFG,'CS': CS,'HBMI': HBMI,'SS': SS,'US': US,'UWS': UWS,'DLV': DLV,'DLF': DLF,\
+            'HIS': HIS,'DU': DU,'HASF': HASF,'HLC': HLC,'ID': ID,'ZD': ZD,'S': S,'DVD': DVD,'PMP': PMP
+        }
+
+    # return the JSON representation of dictionary.
+    return jsonify(dbbrf_dic)
+##########################################################################################################
+##################################### Disease Burden by Risk Factor ######################################
+# define a ndrf route
+@app.route("/ndrf")
+def ndrf_func():
+    print("Server received request for Aq pollution mortality data")
+    # create our session (link) from Python to the DB
+    session
+    # Create the SQLAlchemy query
+    ndrf_query = session.query(Number_of_deaths_by_risk_factor.country,
+                            Number_of_deaths_by_risk_factor.year,
+                            (Number_of_deaths_by_risk_factor.deaths_low_physical_activity).label("LPA"),
+                            (Number_of_deaths_by_risk_factor.deaths_from_non_exclusive_breastfeeding).label("NEB"),
+                            (Number_of_deaths_by_risk_factor.deaths_from_air_pollution).label("AP"),
+                            (Number_of_deaths_by_risk_factor.deaths_from_child_wasting).label("CW"),
+                            (Number_of_deaths_by_risk_factor.deaths_from_high_systolic_blood_pressure).label("HS"),
+                            (Number_of_deaths_by_risk_factor.deaths_from_high_fasting_plasma_glucose).label("HFG"),
+                            (Number_of_deaths_by_risk_factor.deaths_from_child_stunting).label("CS"),
+                            (Number_of_deaths_by_risk_factor.deaths_from_high_body_mass_index).label("HBMI"),
+                            (Number_of_deaths_by_risk_factor.deaths_from_secondhand_smoke).label("SS"),
+                            (Number_of_deaths_by_risk_factor.deaths_from_unsafe_sanitation).label("US"),
+                            (Number_of_deaths_by_risk_factor.deaths_from_unsafe_water_source).label("UWS"),
+                            (Number_of_deaths_by_risk_factor.deaths_from_diet_low_in_vegetables).label("DLV"),
+                            (Number_of_deaths_by_risk_factor.deaths_from_low_fruits_diet).label("DLF"),
+                            (Number_of_deaths_by_risk_factor.deaths_from_high_sodium_diet).label("HIS"),
+                            (Number_of_deaths_by_risk_factor.deaths_from_drug_use).label("DU"),
+                            (Number_of_deaths_by_risk_factor.death_from_household_air_pollution_from_solid_fuels).label("HASF"),
+                            (Number_of_deaths_by_risk_factor.deaths_from_discontinued_breastfeeding).label("DB"),
+                            (Number_of_deaths_by_risk_factor.deaths_from_iron_deficiency).label("ID"),
+                            (Number_of_deaths_by_risk_factor.deaths_from_low_bone_mineral_density).label("LBMD"),
+                            (Number_of_deaths_by_risk_factor.deaths_from__smoking).label("S"),
+                            (Number_of_deaths_by_risk_factor.deaths_from_vitamina_deficiency).label("DVD"),
+                            (Number_of_deaths_by_risk_factor.deaths_from_outdoor_air_pollution).label("PMP"),
+                            (Number_of_deaths_by_risk_factor.deaths_from_low_whole_grains_diet).label("LWGD"),
+                            (Number_of_deaths_by_risk_factor.deaths_from_alcohol_use).label("AU"),
+                            (Number_of_deaths_by_risk_factor.death_from_low_birth_weight).label("LBW"),
+                            (Number_of_deaths_by_risk_factor.deaths_from_unsafe_sex).label("UNS"),
+                            (Number_of_deaths_by_risk_factor.deaths_from_diet_low_in_nuts_and_seeds).label("LNS"),
+                            (Number_of_deaths_by_risk_factor.deaths_from_no_access_to_handwashing_facility).label("NAHF"), 
+                          )\
+                        .filter(Number_of_deaths_by_risk_factor.year>=2015)\
+                        .all()
+    session.close()
+    # convert the query results to a dictionary
+    ndrf_dic = {}
+
+    for row in ndrf_query:
+        country, year, LPA, NEB, AP, CW, HS, HFG, CS, HBMI, SS, US, UWS, DLV, DLF,\
+        HIS, DU, HASF, DB, ID, LBMD, S, DVD, PMP, LWGD, AU, LBW, UNS, LNS, NAHF = row
+
+        if country not in ndrf_dic:
+            ndrf_dic[country] = {}
+
+        ndrf_dic[country][year] = {'LPA': LPA,'NEB': NEB,'AP': AP,'CW': CW,'HS': HS,\
+            'HFG': HFG,'CS': CS,'HBMI': HBMI,'SS': SS,'US': US,'UWS': UWS,'DLV': DLV,'DLF': DLF,\
+            'HIS': HIS,'DU': DU,'HASF': HASF,'DB': DB,'ID': ID,'LBMD': LBMD,'S': S,'DVD': DVD,'PMP': PMP, 'LWGD':LWGD, 'AU':AU,\
+                                    'LBW':LBW,'UNS':UNS, 'LNS':LNS, 'NAHF':NAHF
+                                    
+        }
+
+    # return the JSON representation of dictionary.
+    return jsonify(ndrf_dic)
 ##########################################################################################################
 ####################################### Open Browser and Run App #########################################
 def open_browser():

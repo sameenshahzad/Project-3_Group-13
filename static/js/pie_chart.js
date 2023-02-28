@@ -47,15 +47,32 @@ document.addEventListener("DOMContentLoaded", function () {
                         const pieData = [  {    values: [selectedCountry[year].under5, selectedCountry[year].age5to14, selectedCountry[year].age15to49, selectedCountry[year].age50to69, selectedCountry[year].age70plus ],
                             labels: ["Under 5", "5 to 14", "15 to 49", "50 to 69", "70 plus" ],
                             type: "pie",
-                            marker: {color: "blue"} // set the bar color to blue
+                            marker: {
+                              colors: ["#7d3f20", "#e09104", "#ffc581", "#9dd323", "#1e4a45"]
+                            },
+                            hole: .4,
+                            textinfo: "label+percent",
+                            insidetextorientation: "radial",
+                            automargin: true
                           }
                         ];
                         
                         // Create a new pie chart layout object
                         const pieLayout = {
-                          title: "Pollution Levels",
-                          plot_bgcolor: "#FFFBF0",
-                          paper_bgcolor: "#FFFBF0"
+                          annotations: [
+                            {
+                              font: {
+                                size: 20
+                              },
+                              showarrow: false,
+                              text: 'AGE',
+                              x: 0.5,
+                              y: 0.5
+                            }  
+                          ],
+                          paper_bgcolor:'rgba(0,0,0,0)',
+                          plot_bgcolor :'rgba(0,0,0,0)',
+                          margin: {l: 40, r: 40, b: 50, t: 50, pad:0}
                         };
                         
                         // Render the new pie chart
@@ -66,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
                       get_year();
                       
                       // Add an event listener to the dropdown menu
-                      d3.select('#selDataset_bar').on('change', function() {
+                      d3.select('#selDataset_pie').on('change', function() {
                         var year = d3.select(this).property('value');
                         update_charts(year);
                       });
